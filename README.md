@@ -1,1 +1,1 @@
-# NVGWGD_Sponza
+# NVIDIA GameWorks | Godot | Sponza
