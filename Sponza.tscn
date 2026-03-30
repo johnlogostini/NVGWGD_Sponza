@@ -133,6 +133,10 @@ ssao_radius = 2.0
 ssao_intensity = 5.0
 ssil_enabled = true
 ssil_radius = 6.0
+fog_light_color = Color(0.88, 0.7018, 0.484, 1)
+fog_sun_scatter = 0.1
+fog_density = 0.005
+fog_sky_affect = 0.0
 volumetric_fog_density = 0.02
 
 [node name="Sponza" type="Node3D" unique_id=958874319]
