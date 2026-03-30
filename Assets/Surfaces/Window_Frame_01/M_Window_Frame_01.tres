@@ -1,0 +1,18 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://crnndwy5kam3w"]
+
+[ext_resource type="Texture2D" uid="uid://d1yfvnm37mq0l" path="res://Worlds/Sponza/Assets/Surfaces/Window_Frame_01/T_Window_Frame_01_A.png" id="1_lwx3d"]
+[ext_resource type="Texture2D" uid="uid://caj80x7v840is" path="res://Worlds/Sponza/Assets/Surfaces/Window_Frame_01/T_Window_Frame_01_ORM.png" id="2_80ake"]
+[ext_resource type="Texture2D" uid="uid://djmtrvsvip4bw" path="res://Worlds/Sponza/Assets/Surfaces/Window_Frame_01/T_Window_Frame_01_N.png" id="3_s7o0l"]
+
+[resource]
+resource_name = "window_frame_01"
+vertex_color_use_as_albedo = true
+albedo_texture = ExtResource("1_lwx3d")
+metallic = 1.0
+metallic_texture = ExtResource("2_80ake")
+metallic_texture_channel = 2
+roughness_texture = ExtResource("2_80ake")
+roughness_texture_channel = 1
+normal_enabled = true
+normal_scale = 0.5
+normal_texture = ExtResource("3_s7o0l")
