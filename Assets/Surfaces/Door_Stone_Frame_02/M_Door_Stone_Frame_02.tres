@@ -1,0 +1,18 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://dqes4ubgje2k1"]
+
+[ext_resource type="Texture2D" uid="uid://ud4my4nfkf6" path="res://Worlds/Sponza/Assets/Surfaces/Door_Stone_Frame_02/T_Door_Stone_Frame_02_A.png" id="1_luu36"]
+[ext_resource type="Texture2D" uid="uid://bmyu272kiu7ys" path="res://Worlds/Sponza/Assets/Surfaces/Door_Stone_Frame_02/T_Door_Stone_Frame_02_ORM.png" id="2_nj6iq"]
+[ext_resource type="Texture2D" uid="uid://d1xfudlmdkqey" path="res://Worlds/Sponza/Assets/Surfaces/Door_Stone_Frame_02/T_Door_Stone_Frame_02_N.png" id="3_ujcl0"]
+
+[resource]
+resource_name = "door_stoneframe_02"
+vertex_color_use_as_albedo = true
+albedo_texture = ExtResource("1_luu36")
+metallic = 1.0
+metallic_texture = ExtResource("2_nj6iq")
+metallic_texture_channel = 2
+roughness_texture = ExtResource("2_nj6iq")
+roughness_texture_channel = 1
+normal_enabled = true
+normal_scale = 0.5
+normal_texture = ExtResource("3_ujcl0")
