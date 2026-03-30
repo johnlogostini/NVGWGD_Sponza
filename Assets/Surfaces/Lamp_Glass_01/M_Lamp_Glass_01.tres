@@ -1,0 +1,7 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://dh0ug565np8sf"]
+
+[resource]
+resource_name = "lamp_glass_01"
+cull_mode = 2
+albedo_color = Color(0.80363095, 0.80363095, 0.80363095, 1)
+roughness = 0.39
