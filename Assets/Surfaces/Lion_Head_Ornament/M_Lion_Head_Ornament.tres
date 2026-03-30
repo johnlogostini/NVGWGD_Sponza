@@ -1,0 +1,16 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://cepylcwynfo6l"]
+
+[ext_resource type="Texture2D" uid="uid://dye4epgkktv12" path="res://Worlds/Sponza/Assets/Surfaces/Lion_Head_Ornament/T_Lion_Head_Ornament_A.png" id="1_bc4bd"]
+[ext_resource type="Texture2D" uid="uid://7fp2mu5kiw55" path="res://Worlds/Sponza/Assets/Surfaces/Lion_Head_Ornament/T_Lion_Head_Ornament_ORM.png" id="2_7ciuu"]
+[ext_resource type="Texture2D" uid="uid://hro1nu07ahns" path="res://Worlds/Sponza/Assets/Surfaces/Lion_Head_Ornament/T_Lion_Head_Ornament_N.png" id="3_4ump7"]
+
+[resource]
+resource_name = "ornament_lion"
+albedo_texture = ExtResource("1_bc4bd")
+metallic = 1.0
+metallic_texture = ExtResource("2_7ciuu")
+metallic_texture_channel = 2
+roughness_texture = ExtResource("2_7ciuu")
+roughness_texture_channel = 1
+normal_enabled = true
+normal_texture = ExtResource("3_4ump7")
