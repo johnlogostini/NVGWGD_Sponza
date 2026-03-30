@@ -1,0 +1,17 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://hceb6u6mtkp1"]
+
+[ext_resource type="Texture2D" uid="uid://k47g3gfryap3" path="res://Worlds/Sponza/Assets/Surfaces/Arch_Stone_Wall_01/T_Arch_Stone_Wall_01_A.png" id="1_rdnjs"]
+[ext_resource type="Texture2D" uid="uid://3y6233qbv6tf" path="res://Worlds/Sponza/Assets/Surfaces/Arch_Stone_Wall_01/T_Arch_Stone_Wall_01_ORM.png" id="2_du43o"]
+[ext_resource type="Texture2D" uid="uid://bghh3yc5kmorm" path="res://Worlds/Sponza/Assets/Surfaces/Arch_Stone_Wall_01/T_Arch_Stone_Wall_01_N.png" id="3_iq8cl"]
+
+[resource]
+resource_name = "arch_stone_wall_01"
+vertex_color_use_as_albedo = true
+albedo_texture = ExtResource("1_rdnjs")
+metallic = 1.0
+metallic_texture = ExtResource("2_du43o")
+metallic_texture_channel = 2
+roughness_texture = ExtResource("2_du43o")
+roughness_texture_channel = 1
+normal_enabled = true
+normal_texture = ExtResource("3_iq8cl")
