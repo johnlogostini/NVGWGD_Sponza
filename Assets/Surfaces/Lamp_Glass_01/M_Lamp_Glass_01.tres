@@ -2,6 +2,7 @@
 
 [resource]
 resource_name = "lamp_glass_01"
+transparency = 1
 cull_mode = 2
-albedo_color = Color(0.80363095, 0.80363095, 0.80363095, 1)
-roughness = 0.39
+albedo_color = Color(0, 0, 0, 0.49803922)
+roughness = 0.15
