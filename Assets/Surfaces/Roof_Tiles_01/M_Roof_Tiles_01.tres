@@ -1,0 +1,17 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://c3scdy6th47kn"]
+
+[ext_resource type="Texture2D" uid="uid://c6rhoghjij1n0" path="res://Worlds/Sponza/Assets/Surfaces/Roof_Tiles_01/T_Roof_Tiles_01_A.png" id="1_q8ene"]
+[ext_resource type="Texture2D" uid="uid://gdojplkla8oh" path="res://Worlds/Sponza/Assets/Surfaces/Roof_Tiles_01/T_Roof_Tiles_01_ORM.png" id="2_1ype7"]
+[ext_resource type="Texture2D" uid="uid://nf1gsdgn6o5d" path="res://Worlds/Sponza/Assets/Surfaces/Roof_Tiles_01/T_Roof_Tiles_01_N.png" id="3_nc4wb"]
+
+[resource]
+resource_name = "roof_tiles_01"
+albedo_texture = ExtResource("1_q8ene")
+metallic = 1.0
+metallic_texture = ExtResource("2_1ype7")
+metallic_texture_channel = 2
+roughness_texture = ExtResource("2_1ype7")
+roughness_texture_channel = 1
+normal_enabled = true
+normal_scale = 0.3
+normal_texture = ExtResource("3_nc4wb")
