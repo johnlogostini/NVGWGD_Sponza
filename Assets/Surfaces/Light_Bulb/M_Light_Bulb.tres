@@ -7,5 +7,5 @@ resource_name = "light_bulb"
 roughness = 0.0
 emission_enabled = true
 emission = Color(1, 0.7058824, 0.37254903, 1)
-emission_energy_multiplier = 50.0
+emission_energy_multiplier = 5000.0
 emission_texture = ExtResource("1_bug0m")
