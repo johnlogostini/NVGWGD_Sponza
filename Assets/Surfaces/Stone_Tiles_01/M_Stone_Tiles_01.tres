@@ -1,0 +1,17 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://sua2r1hh1yep"]
+
+[ext_resource type="Texture2D" uid="uid://bjphlhuf2ec24" path="res://Worlds/Sponza/Assets/Surfaces/Stone_Tiles_01/T_Stone_Tiles_01_A.png" id="1_jewyk"]
+[ext_resource type="Texture2D" uid="uid://db44sotpejbv2" path="res://Worlds/Sponza/Assets/Surfaces/Stone_Tiles_01/T_Stone_Tiles_01_ORM.png" id="2_7irpf"]
+[ext_resource type="Texture2D" uid="uid://cioxdptqu31gu" path="res://Worlds/Sponza/Assets/Surfaces/Stone_Tiles_01/T_Stone_Tiles_01_N.png" id="3_jgrf7"]
+
+[resource]
+resource_name = "stones_01_tile"
+vertex_color_use_as_albedo = true
+albedo_texture = ExtResource("1_jewyk")
+metallic = 1.0
+metallic_texture = ExtResource("2_7irpf")
+metallic_texture_channel = 2
+roughness_texture = ExtResource("2_7irpf")
+roughness_texture_channel = 1
+normal_enabled = true
+normal_texture = ExtResource("3_jgrf7")
