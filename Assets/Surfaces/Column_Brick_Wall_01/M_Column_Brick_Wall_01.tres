@@ -1,0 +1,16 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://bsiorn0o44nj2"]
+
+[ext_resource type="Texture2D" uid="uid://cjayimab50hcp" path="res://Worlds/Sponza/Assets/Surfaces/Column_Brick_Wall_01/T_Column_Brick_Wall_01_A.png" id="1_ycgvn"]
+[ext_resource type="Texture2D" uid="uid://1j5c1bckee0n" path="res://Worlds/Sponza/Assets/Surfaces/Column_Brick_Wall_01/T_Column_Brick_Wall_01_ORM.png" id="2_qiinr"]
+[ext_resource type="Texture2D" uid="uid://cfkyrclifk7p6" path="res://Worlds/Sponza/Assets/Surfaces/Column_Brick_Wall_01/T_Column_Brick_Wall_01_N.png" id="3_bheej"]
+
+[resource]
+resource_name = "column_brickwall_01"
+albedo_texture = ExtResource("1_ycgvn")
+metallic = 1.0
+metallic_texture = ExtResource("2_qiinr")
+metallic_texture_channel = 2
+roughness_texture = ExtResource("2_qiinr")
+roughness_texture_channel = 1
+normal_enabled = true
+normal_texture = ExtResource("3_bheej")
