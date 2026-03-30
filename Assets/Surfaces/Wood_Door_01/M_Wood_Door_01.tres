@@ -1,0 +1,16 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://c46hydg7nlpb4"]
+
+[ext_resource type="Texture2D" uid="uid://drvj2r31vdk4o" path="res://Worlds/Sponza/Assets/Surfaces/Wood_Door_01/T_Wood_Door_01_A.png" id="1_ms8h5"]
+[ext_resource type="Texture2D" uid="uid://c5oouf0ne148y" path="res://Worlds/Sponza/Assets/Surfaces/Wood_Door_01/T_Wood_Door_01_ORM.png" id="2_2dyrd"]
+[ext_resource type="Texture2D" uid="uid://b36ndu6ndhc1s" path="res://Worlds/Sponza/Assets/Surfaces/Wood_Door_01/T_Wood_Door_01_N.png" id="3_86063"]
+
+[resource]
+resource_name = "wood_door_01"
+albedo_texture = ExtResource("1_ms8h5")
+metallic = 1.0
+metallic_texture = ExtResource("2_2dyrd")
+metallic_texture_channel = 2
+roughness_texture = ExtResource("2_2dyrd")
+roughness_texture_channel = 1
+normal_enabled = true
+normal_texture = ExtResource("3_86063")
