@@ -1,0 +1,17 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://bvtx6iffbmd4o"]
+
+[ext_resource type="Texture2D" uid="uid://pbuxvksm7gla" path="res://Worlds/Sponza/Assets/Surfaces/Ornament_01/T_Ornament_01_A.png" id="1_bp44m"]
+[ext_resource type="Texture2D" uid="uid://cgop1t7kae5ue" path="res://Worlds/Sponza/Assets/Surfaces/Ornament_01/T_Ornament_01_ORM.png" id="2_5vbfw"]
+[ext_resource type="Texture2D" uid="uid://ctdtyvsmpqcv0" path="res://Worlds/Sponza/Assets/Surfaces/Ornament_01/T_Ornament_01_N.png" id="3_mco61"]
+
+[resource]
+resource_name = "ornament_01"
+vertex_color_use_as_albedo = true
+albedo_texture = ExtResource("1_bp44m")
+metallic = 1.0
+metallic_texture = ExtResource("2_5vbfw")
+metallic_texture_channel = 2
+roughness_texture = ExtResource("2_5vbfw")
+roughness_texture_channel = 1
+normal_enabled = true
+normal_texture = ExtResource("3_mco61")
