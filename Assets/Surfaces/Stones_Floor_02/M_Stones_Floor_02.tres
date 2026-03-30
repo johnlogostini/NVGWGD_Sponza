@@ -1,0 +1,17 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://dqfp22vbvl8pq"]
+
+[ext_resource type="Texture2D" uid="uid://dwbvt3xv7kogj" path="res://Worlds/Sponza/Assets/Surfaces/Stones_Floor_02/T_Stones_Floor_02_A.png" id="1_7yb18"]
+[ext_resource type="Texture2D" uid="uid://col3mkd61ojnl" path="res://Worlds/Sponza/Assets/Surfaces/Stones_Floor_02/T_Stones_Floor_02_ORM.png" id="2_n84ya"]
+[ext_resource type="Texture2D" uid="uid://bvjuatq711on3" path="res://Worlds/Sponza/Assets/Surfaces/Stones_Floor_02/T_Stones_Floor_02_N.png" id="3_bixmd"]
+
+[resource]
+resource_name = "stones_2ndfloor"
+vertex_color_use_as_albedo = true
+albedo_texture = ExtResource("1_7yb18")
+metallic = 1.0
+metallic_texture = ExtResource("2_n84ya")
+metallic_texture_channel = 2
+roughness_texture = ExtResource("2_n84ya")
+roughness_texture_channel = 1
+normal_enabled = true
+normal_texture = ExtResource("3_bixmd")
