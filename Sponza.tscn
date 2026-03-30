@@ -127,6 +127,7 @@ sky_material = SubResource("PanoramaSkyMaterial_gvkrq")
 [sub_resource type="Environment" id="Environment_biddm"]
 background_mode = 2
 sky = SubResource("Sky_ggsp4")
+ambient_light_source = 1
 
 [node name="Sponza" type="Node3D" unique_id=958874319]
 
