@@ -1,3 +1,814 @@
 [gd_scene format=3 uid="uid://6e060v1k5vyr"]
 
+[ext_resource type="ArrayMesh" uid="uid://b8kscnll7crgm" path="res://Worlds/Sponza/Assets/Meshes/SM_Arch_Stones_01.tres" id="1_8mj5i"]
+[ext_resource type="ArrayMesh" uid="uid://ckvmt48gxh108" path="res://Worlds/Sponza/Assets/Meshes/SM_Arch_Stones_02.tres" id="2_b76oc"]
+[ext_resource type="ArrayMesh" uid="uid://b56164htyk0dl" path="res://Worlds/Sponza/Assets/Meshes/SM_Arch_Stones_03.tres" id="3_sovbk"]
+[ext_resource type="ArrayMesh" uid="uid://dy7t80a4pgfh7" path="res://Worlds/Sponza/Assets/Meshes/SM_Ceiling_Floor_01_01.tres" id="4_gvkrq"]
+[ext_resource type="ArrayMesh" uid="uid://bctptfy4ph7iq" path="res://Worlds/Sponza/Assets/Meshes/SM_Ceiling_Floor_01_02.tres" id="5_ggsp4"]
+[ext_resource type="ArrayMesh" uid="uid://wab4uyhhopeo" path="res://Worlds/Sponza/Assets/Meshes/SM_Columns_Floor_01_01.tres" id="6_biddm"]
+[ext_resource type="ArrayMesh" uid="uid://dpwp05i2f0dx8" path="res://Worlds/Sponza/Assets/Meshes/SM_Columns_Floor_01_02.tres" id="7_4m72y"]
+[ext_resource type="ArrayMesh" uid="uid://w5r4ct1m5fs5" path="res://Worlds/Sponza/Assets/Meshes/SM_Columns_Floor_01_03.tres" id="8_r4wx2"]
+[ext_resource type="ArrayMesh" uid="uid://ykm1c5ke7s5g" path="res://Worlds/Sponza/Assets/Meshes/SM_Columns_Floor_01_04.tres" id="9_24kbb"]
+[ext_resource type="ArrayMesh" uid="uid://ddidpu3vwvb7v" path="res://Worlds/Sponza/Assets/Meshes/SM_Columns_Floor_01_05.tres" id="10_yi330"]
+[ext_resource type="ArrayMesh" uid="uid://ckbjhmty1rnku" path="res://Worlds/Sponza/Assets/Meshes/SM_Lamp_Floor_01_Entrance.tres" id="11_rkdb3"]
+[ext_resource type="ArrayMesh" uid="uid://q6l4rs0uwooa" path="res://Worlds/Sponza/Assets/Meshes/SM_Lamps_Floor_01_04.tres" id="12_sxvb5"]
+[ext_resource type="ArrayMesh" uid="uid://diso5qfwkq2xg" path="res://Worlds/Sponza/Assets/Meshes/SM_Ornament_Doors_01.tres" id="13_rknyr"]
+[ext_resource type="ArrayMesh" uid="uid://cdfo08q1mgfhj" path="res://Worlds/Sponza/Assets/Meshes/SM_Ornament_Doors_02.tres" id="14_ecvsd"]
+[ext_resource type="ArrayMesh" uid="uid://1qi0oml1v8jr" path="res://Worlds/Sponza/Assets/Meshes/SM_Ornament_Doors_03.tres" id="15_x55y3"]
+[ext_resource type="ArrayMesh" uid="uid://p4xmpdu4v51p" path="res://Worlds/Sponza/Assets/Meshes/SM_Ornament_Doors_04.tres" id="16_6j0ml"]
+[ext_resource type="ArrayMesh" uid="uid://de4gwqhl7q2cq" path="res://Worlds/Sponza/Assets/Meshes/SM_Ornament_Doors_05.tres" id="17_ndxga"]
+[ext_resource type="ArrayMesh" uid="uid://cgleq81bgxwq7" path="res://Worlds/Sponza/Assets/Meshes/SM_Ornament_Doors_06.tres" id="18_rotbu"]
+[ext_resource type="ArrayMesh" uid="uid://3nyetlqc5qxv" path="res://Worlds/Sponza/Assets/Meshes/SM_Ornament_Doors_07.tres" id="19_vjhby"]
+[ext_resource type="ArrayMesh" uid="uid://dlu0676pfdgke" path="res://Worlds/Sponza/Assets/Meshes/SM_Ornament_Doors_08.tres" id="20_hv3uc"]
+[ext_resource type="ArrayMesh" uid="uid://detvflv8g8pmr" path="res://Worlds/Sponza/Assets/Meshes/SM_Ornament_Doors_09.tres" id="21_imdti"]
+[ext_resource type="ArrayMesh" uid="uid://v45qokbfb64r" path="res://Worlds/Sponza/Assets/Meshes/SM_Ornament_Doors_10.tres" id="22_qvk4v"]
+[ext_resource type="ArrayMesh" uid="uid://bho7aku1g6r7y" path="res://Worlds/Sponza/Assets/Meshes/SM_Ornament_Stones_Floor_01.tres" id="23_j3306"]
+[ext_resource type="ArrayMesh" uid="uid://vcpu81cjemn8" path="res://Worlds/Sponza/Assets/Meshes/SM_Walls_Floor_01_01.tres" id="24_qv8y0"]
+[ext_resource type="ArrayMesh" uid="uid://dbtb0ykcuofan" path="res://Worlds/Sponza/Assets/Meshes/SM_Wood_Door.tres" id="25_j0j3v"]
+[ext_resource type="ArrayMesh" uid="uid://ducqudu5vyjox" path="res://Worlds/Sponza/Assets/Meshes/SM_Wooden_Parts.tres" id="26_30348"]
+[ext_resource type="ArrayMesh" uid="uid://co32nuyosd5v0" path="res://Worlds/Sponza/Assets/Meshes/SM_Exterior.tres" id="27_8vypv"]
+[ext_resource type="ArrayMesh" uid="uid://btg7tq4ld5nnf" path="res://Worlds/Sponza/Assets/Meshes/SM_Lamps_Floor_01_05.tres" id="28_wvx3f"]
+[ext_resource type="ArrayMesh" uid="uid://c86a2lyn6fx5a" path="res://Worlds/Sponza/Assets/Meshes/SM_Lamps_Floor_01_06.tres" id="29_i8aba"]
+[ext_resource type="ArrayMesh" uid="uid://p1p8vc636v3b" path="res://Worlds/Sponza/Assets/Meshes/SM_Lamps_Floor_01_07.tres" id="30_k6eol"]
+[ext_resource type="ArrayMesh" uid="uid://cxuuro0a03w3" path="res://Worlds/Sponza/Assets/Meshes/SM_Lamps_Floor_01_03.tres" id="31_8nkfm"]
+[ext_resource type="ArrayMesh" uid="uid://c0ng7qny1s3o2" path="res://Worlds/Sponza/Assets/Meshes/SM_Lamps_Floor_01_02.tres" id="32_gfrk4"]
+[ext_resource type="ArrayMesh" uid="uid://dbg7lf2c3nicp" path="res://Worlds/Sponza/Assets/Meshes/SM_Lamps_Floor_01_01.tres" id="33_qhhi7"]
+[ext_resource type="ArrayMesh" uid="uid://b1j3upmef1yfe" path="res://Worlds/Sponza/Assets/Meshes/SM_Lamps_Floor_01_10.tres" id="34_dh0sj"]
+[ext_resource type="ArrayMesh" uid="uid://b8a46trae58i3" path="res://Worlds/Sponza/Assets/Meshes/SM_Lamps_Floor_01_09.tres" id="35_7eqcx"]
+[ext_resource type="ArrayMesh" uid="uid://ciw3oref284yd" path="res://Worlds/Sponza/Assets/Meshes/SM_Lamps_Floor_01_08.tres" id="36_1u6xq"]
+[ext_resource type="ArrayMesh" uid="uid://6yt1v6xjywgi" path="res://Worlds/Sponza/Assets/Meshes/SM_Lamps_Floor_01_13.tres" id="37_3aqnh"]
+[ext_resource type="ArrayMesh" uid="uid://chh8qao8pe1gc" path="res://Worlds/Sponza/Assets/Meshes/SM_Lamps_Floor_01_11.tres" id="38_cdisn"]
+[ext_resource type="ArrayMesh" uid="uid://dl1efggu4irdg" path="res://Worlds/Sponza/Assets/Meshes/SM_Lamps_Floor_01_12.tres" id="39_fd2x5"]
+[ext_resource type="ArrayMesh" uid="uid://cbnm21iotjfvf" path="res://Worlds/Sponza/Assets/Meshes/SM_Floor_Floor_01_01.tres" id="40_4ekjk"]
+[ext_resource type="ArrayMesh" uid="uid://call4hc16cby0" path="res://Worlds/Sponza/Assets/Meshes/SM_Arch_Stones_04.tres" id="41_2tufj"]
+[ext_resource type="ArrayMesh" uid="uid://iwocekw2d400" path="res://Worlds/Sponza/Assets/Meshes/SM_Arch_Stones_05.tres" id="42_2ethr"]
+[ext_resource type="ArrayMesh" uid="uid://uhkpckryomjn" path="res://Worlds/Sponza/Assets/Meshes/SM_Lion_Head.tres" id="43_856q3"]
+[ext_resource type="ArrayMesh" uid="uid://br6iry8fld5dc" path="res://Worlds/Sponza/Assets/Meshes/SM_Decals_Floor_01.tres" id="44_ys7if"]
+[ext_resource type="ArrayMesh" uid="uid://t8l1ui46h6os" path="res://Worlds/Sponza/Assets/Meshes/SM_Walls_Floor_01_02.tres" id="45_mvaah"]
+[ext_resource type="ArrayMesh" uid="uid://ba31hmr51bl3m" path="res://Worlds/Sponza/Assets/Meshes/SM_Columns_Floor_02_19.tres" id="46_txfju"]
+[ext_resource type="ArrayMesh" uid="uid://dunieq2ex86wq" path="res://Worlds/Sponza/Assets/Meshes/SM_Columns_Floor_02_20.tres" id="47_nrd53"]
+[ext_resource type="ArrayMesh" uid="uid://d0hg1ubh0757n" path="res://Worlds/Sponza/Assets/Meshes/SM_Columns_Floor_02_18.tres" id="48_2a5om"]
+[ext_resource type="ArrayMesh" uid="uid://bsgfbql7dhy74" path="res://Worlds/Sponza/Assets/Meshes/SM_Columns_Floor_02_17.tres" id="49_8y1j0"]
+[ext_resource type="ArrayMesh" uid="uid://deqv84mw7mu2d" path="res://Worlds/Sponza/Assets/Meshes/SM_Columns_Floor_02_16.tres" id="50_6aijl"]
+[ext_resource type="ArrayMesh" uid="uid://c8jfa2xpmauet" path="res://Worlds/Sponza/Assets/Meshes/SM_Ceiling_Floor_02.tres" id="51_vekjs"]
+[ext_resource type="ArrayMesh" uid="uid://b6k2x53rj20dx" path="res://Worlds/Sponza/Assets/Meshes/SM_Arch_Wall_Floor_02.tres" id="52_mush8"]
+[ext_resource type="ArrayMesh" uid="uid://cbubgv87kgrwa" path="res://Worlds/Sponza/Assets/Meshes/SM_Lamps_Floor_02_05.tres" id="53_lo1pn"]
+[ext_resource type="ArrayMesh" uid="uid://cw4yb474nv5c7" path="res://Worlds/Sponza/Assets/Meshes/SM_Stone_Walls_Floor_02_01.tres" id="54_0srer"]
+[ext_resource type="ArrayMesh" uid="uid://cdft65186d5ns" path="res://Worlds/Sponza/Assets/Meshes/SM_Ornament_Stones_Floor_02.tres" id="55_gthj1"]
+[ext_resource type="ArrayMesh" uid="uid://dsbdwe31givlk" path="res://Worlds/Sponza/Assets/Meshes/SM_Columns_Floor_02_01.tres" id="56_005uk"]
+[ext_resource type="ArrayMesh" uid="uid://c5cu7i8740u4p" path="res://Worlds/Sponza/Assets/Meshes/SM_Columns_Floor_02_02.tres" id="57_nfs6y"]
+[ext_resource type="ArrayMesh" uid="uid://cxtpm6oasxffe" path="res://Worlds/Sponza/Assets/Meshes/SM_Columns_Floor_02_03.tres" id="58_vm4at"]
+[ext_resource type="ArrayMesh" uid="uid://dp38y4nlg41ym" path="res://Worlds/Sponza/Assets/Meshes/SM_Columns_Floor_02_04.tres" id="59_fmajt"]
+[ext_resource type="ArrayMesh" uid="uid://c1re17751ubj2" path="res://Worlds/Sponza/Assets/Meshes/SM_Columns_Floor_02_05.tres" id="60_24u8w"]
+[ext_resource type="ArrayMesh" uid="uid://cdf1rqn3upchk" path="res://Worlds/Sponza/Assets/Meshes/SM_Columns_Floor_02_06.tres" id="61_tmpbf"]
+[ext_resource type="ArrayMesh" uid="uid://cmp8yvaaag1bj" path="res://Worlds/Sponza/Assets/Meshes/SM_Columns_Floor_02_07.tres" id="62_3kxyw"]
+[ext_resource type="ArrayMesh" uid="uid://c8i1r5fdtnbgo" path="res://Worlds/Sponza/Assets/Meshes/SM_Columns_Floor_02_08.tres" id="63_jw8xg"]
+[ext_resource type="ArrayMesh" uid="uid://cyn2r4gpuprci" path="res://Worlds/Sponza/Assets/Meshes/SM_Columns_Floor_02_09.tres" id="64_5sjeb"]
+[ext_resource type="ArrayMesh" uid="uid://dia6ngusluooh" path="res://Worlds/Sponza/Assets/Meshes/SM_Columns_Floor_02_10.tres" id="65_85dn5"]
+[ext_resource type="ArrayMesh" uid="uid://o35p58rtu3xa" path="res://Worlds/Sponza/Assets/Meshes/SM_Columns_Floor_02_11.tres" id="66_55llj"]
+[ext_resource type="ArrayMesh" uid="uid://dfg77afl07e40" path="res://Worlds/Sponza/Assets/Meshes/SM_Columns_Floor_02_12.tres" id="67_vgpxo"]
+[ext_resource type="ArrayMesh" uid="uid://bmxtdg7j2ihh5" path="res://Worlds/Sponza/Assets/Meshes/SM_Columns_Floor_02_13.tres" id="68_xjqes"]
+[ext_resource type="ArrayMesh" uid="uid://twa1bjviuxkc" path="res://Worlds/Sponza/Assets/Meshes/SM_Columns_Floor_02_14.tres" id="69_myia3"]
+[ext_resource type="ArrayMesh" uid="uid://3jqnnadvuxs" path="res://Worlds/Sponza/Assets/Meshes/SM_Columns_Floor_02_15.tres" id="70_rjq62"]
+[ext_resource type="ArrayMesh" uid="uid://cvktdhk8yco75" path="res://Worlds/Sponza/Assets/Meshes/SM_Ornament_Door_Floor_02_01.tres" id="71_fyu8p"]
+[ext_resource type="ArrayMesh" uid="uid://bbhxt4rr1i1fm" path="res://Worlds/Sponza/Assets/Meshes/SM_Ornament_Door_Floor_02_02.tres" id="72_5vkwj"]
+[ext_resource type="ArrayMesh" uid="uid://c65e1ve4b3hk" path="res://Worlds/Sponza/Assets/Meshes/SM_Ornament_Door_Floor_02_04.tres" id="73_kw8vn"]
+[ext_resource type="ArrayMesh" uid="uid://brv8rd37crvpa" path="res://Worlds/Sponza/Assets/Meshes/SM_Ornament_Door_Floor_02_05.tres" id="74_uxyth"]
+[ext_resource type="ArrayMesh" uid="uid://bd8gbdq7ifaaj" path="res://Worlds/Sponza/Assets/Meshes/SM_Ornament_Door_Floor_02_06.tres" id="75_jqros"]
+[ext_resource type="ArrayMesh" uid="uid://d0a10tbm72lmd" path="res://Worlds/Sponza/Assets/Meshes/SM_Ornament_Door_Floor_02_07.tres" id="76_nys47"]
+[ext_resource type="ArrayMesh" uid="uid://s54am0728lsg" path="res://Worlds/Sponza/Assets/Meshes/SM_Ornament_Door_Floor_02_08.tres" id="77_mmuo4"]
+[ext_resource type="ArrayMesh" uid="uid://ca2klenn3tsdx" path="res://Worlds/Sponza/Assets/Meshes/SM_Ornament_Door_Floor_02_09.tres" id="78_qti67"]
+[ext_resource type="ArrayMesh" uid="uid://oa1jql8gg1gb" path="res://Worlds/Sponza/Assets/Meshes/SM_Ornament_Door_Floor_02_10.tres" id="79_02xaq"]
+[ext_resource type="ArrayMesh" uid="uid://c8yan4kmlxr4c" path="res://Worlds/Sponza/Assets/Meshes/SM_Ornament_Door_Floor_02_11.tres" id="80_so71o"]
+[ext_resource type="ArrayMesh" uid="uid://bmfgse8ekmv3h" path="res://Worlds/Sponza/Assets/Meshes/SM_Ornament_Door_Floor_02_12.tres" id="81_hn8m3"]
+[ext_resource type="ArrayMesh" uid="uid://bha1ttv6m5oee" path="res://Worlds/Sponza/Assets/Meshes/SM_Ornament_Door_Floor_02_13.tres" id="82_veh3v"]
+[ext_resource type="ArrayMesh" uid="uid://jbjjfggyd2ce" path="res://Worlds/Sponza/Assets/Meshes/SM_Ornament_Door_Floor_02_14.tres" id="83_skqbk"]
+[ext_resource type="ArrayMesh" uid="uid://bu84qfanqyp33" path="res://Worlds/Sponza/Assets/Meshes/SM_Ornament_Door_Floor_02_15.tres" id="84_n28wa"]
+[ext_resource type="ArrayMesh" uid="uid://byuwn4hg7d6ki" path="res://Worlds/Sponza/Assets/Meshes/SM_Ornament_Door_Floor_02_03.tres" id="85_tow8b"]
+[ext_resource type="ArrayMesh" uid="uid://1t6711e6s020" path="res://Worlds/Sponza/Assets/Meshes/SM_Lamps_Floor_02_06.tres" id="86_ikwiq"]
+[ext_resource type="ArrayMesh" uid="uid://b58pyyocmj783" path="res://Worlds/Sponza/Assets/Meshes/SM_Lamps_Floor_02_07.tres" id="87_m2lgy"]
+[ext_resource type="ArrayMesh" uid="uid://btrtujlj7smmi" path="res://Worlds/Sponza/Assets/Meshes/SM_Lamps_Floor_02_08.tres" id="88_d7swq"]
+[ext_resource type="ArrayMesh" uid="uid://d3hww8c8bdas8" path="res://Worlds/Sponza/Assets/Meshes/SM_Lamps_Floor_02_03.tres" id="89_3x8oh"]
+[ext_resource type="ArrayMesh" uid="uid://csg04ywik3wsf" path="res://Worlds/Sponza/Assets/Meshes/SM_Lamps_Floor_02_02.tres" id="90_43rqs"]
+[ext_resource type="ArrayMesh" uid="uid://bm1o11ek5311o" path="res://Worlds/Sponza/Assets/Meshes/SM_Lamps_Floor_02_01.tres" id="91_mbcyt"]
+[ext_resource type="ArrayMesh" uid="uid://dtt5bweflfwq4" path="res://Worlds/Sponza/Assets/Meshes/SM_Lamps_Floor_02_04.tres" id="92_72qtv"]
+[ext_resource type="ArrayMesh" uid="uid://codgetmn3l086" path="res://Worlds/Sponza/Assets/Meshes/SM_Stone_Walls_Floor_02_02.tres" id="93_hbgki"]
+[ext_resource type="ArrayMesh" uid="uid://duno5le4tosf0" path="res://Worlds/Sponza/Assets/Meshes/SM_Decals_Floor_02.tres" id="94_oq65o"]
+[ext_resource type="ArrayMesh" uid="uid://3bu841het621" path="res://Worlds/Sponza/Assets/Meshes/SM_Roof_Floor_03_01.tres" id="95_58ykm"]
+[ext_resource type="ArrayMesh" uid="uid://c5bw3s1tkkll1" path="res://Worlds/Sponza/Assets/Meshes/SM_Roof_Floor_03_02.tres" id="96_xrdmw"]
+[ext_resource type="ArrayMesh" uid="uid://cxvbg0pm06n7s" path="res://Worlds/Sponza/Assets/Meshes/SM_Ornament_Windows_01.tres" id="97_njeu5"]
+[ext_resource type="ArrayMesh" uid="uid://dtswudmhmxxci" path="res://Worlds/Sponza/Assets/Meshes/SM_Sponza_Ornament.tres" id="98_vm60y"]
+[ext_resource type="ArrayMesh" uid="uid://c12em1vum0447" path="res://Worlds/Sponza/Assets/Meshes/SM_Ornament_Roof.tres" id="99_3xtl7"]
+[ext_resource type="ArrayMesh" uid="uid://b3tvexisyvhkr" path="res://Worlds/Sponza/Assets/Meshes/SM_Roof_Floor_03_09.tres" id="100_1c28h"]
+[ext_resource type="ArrayMesh" uid="uid://bvhv6kied0fu0" path="res://Worlds/Sponza/Assets/Meshes/SM_Roof_Floor_03_10.tres" id="101_0n5xw"]
+[ext_resource type="ArrayMesh" uid="uid://cn8q5lh7va0r5" path="res://Worlds/Sponza/Assets/Meshes/SM_Roof_Floor_03_05.tres" id="102_yxgs0"]
+[ext_resource type="ArrayMesh" uid="uid://cytfqpijmgvi6" path="res://Worlds/Sponza/Assets/Meshes/SM_Roof_Floor_03_06.tres" id="103_q130y"]
+[ext_resource type="ArrayMesh" uid="uid://bmiv4oywwx2la" path="res://Worlds/Sponza/Assets/Meshes/SM_Roof_Floor_03_07.tres" id="104_atr5u"]
+[ext_resource type="ArrayMesh" uid="uid://b67jhnssyu3x5" path="res://Worlds/Sponza/Assets/Meshes/SM_Roof_Floor_03_08.tres" id="105_tfrg8"]
+[ext_resource type="ArrayMesh" uid="uid://cyin4tr27o4ct" path="res://Worlds/Sponza/Assets/Meshes/SM_Walls_Floor_03.tres" id="106_f4ac6"]
+[ext_resource type="ArrayMesh" uid="uid://dabrxxsgpwtjb" path="res://Worlds/Sponza/Assets/Meshes/SM_Ornament_Windows_08.tres" id="107_05c75"]
+[ext_resource type="ArrayMesh" uid="uid://c44gtrt1bl6ap" path="res://Worlds/Sponza/Assets/Meshes/SM_Ornament_Windows_07.tres" id="108_606ku"]
+[ext_resource type="ArrayMesh" uid="uid://bcou8m5ygndwc" path="res://Worlds/Sponza/Assets/Meshes/SM_Ornament_Windows_06.tres" id="109_0t8jv"]
+[ext_resource type="ArrayMesh" uid="uid://di1auvlq3ecdr" path="res://Worlds/Sponza/Assets/Meshes/SM_Ornament_Windows_05.tres" id="110_mlpmg"]
+[ext_resource type="ArrayMesh" uid="uid://snppu0pf08ob" path="res://Worlds/Sponza/Assets/Meshes/SM_Ornament_Windows_04.tres" id="111_lx04l"]
+[ext_resource type="ArrayMesh" uid="uid://cag323n6doaya" path="res://Worlds/Sponza/Assets/Meshes/SM_Ornament_Windows_03.tres" id="112_is2qm"]
+[ext_resource type="ArrayMesh" uid="uid://bt1vanyipl2ud" path="res://Worlds/Sponza/Assets/Meshes/SM_Ornament_Windows_02.tres" id="113_7jhal"]
+[ext_resource type="ArrayMesh" uid="uid://btdp74o5228b6" path="res://Worlds/Sponza/Assets/Meshes/SM_Decals_Floor_03.tres" id="114_o762x"]
+[ext_resource type="ArrayMesh" uid="uid://dmc0fm2j0n7wo" path="res://Worlds/Sponza/Assets/Meshes/SM_Material_Previews.tres" id="115_o2ymv"]
+
 [node name="Sponza" type="Node3D" unique_id=958874319]
+
+[node name="Lighting" type="Node3D" parent="." unique_id=190527423]
+
+[node name="Lamps" type="Node3D" parent="Lighting" unique_id=2040751146]
+
+[node name="lamp_light_1st_floor_12" type="OmniLight3D" parent="Lighting/Lamps" unique_id=2074608936]
+transform = Transform3D(0.1562422, -3.8714532e-08, -0.9877188, -3.8714536e-08, 1, -4.5319965e-08, 0.9877188, 4.531996e-08, 0.1562422, 15.619152, 3.2758443, -0.9174349)
+light_color = Color(1, 0.70560676, 0.37189168, 1)
+light_energy = 0.0
+omni_range = 4096.0
+omni_attenuation = 2.0
+
+[node name="lamp_light_1st_floor_11" type="OmniLight3D" parent="Lighting/Lamps" unique_id=1419353888]
+transform = Transform3D(0.1562422, -3.8714532e-08, -0.9877188, -3.8714536e-08, 1, -4.5319965e-08, 0.9877188, 4.531996e-08, 0.1562422, 10.024332, 4.1713915, -4.7909956)
+light_color = Color(1, 0.70560676, 0.37189168, 1)
+light_energy = 0.0
+omni_range = 4096.0
+omni_attenuation = 2.0
+
+[node name="lamp_light_1st_floor_10" type="OmniLight3D" parent="Lighting/Lamps" unique_id=455212046]
+transform = Transform3D(0.1562422, -3.8714532e-08, -0.9877188, -3.8714536e-08, 1, -4.5319965e-08, 0.9877188, 4.531996e-08, 0.1562422, 6.141829, 4.1713915, -4.806306)
+light_color = Color(1, 0.70560676, 0.37189168, 1)
+light_energy = 0.0
+omni_range = 4096.0
+omni_attenuation = 2.0
+
+[node name="lamp_light_1st_floor_09" type="OmniLight3D" parent="Lighting/Lamps" unique_id=361488569]
+transform = Transform3D(0.1562422, -3.8714532e-08, -0.9877188, -3.8714536e-08, 1, -4.5319965e-08, 0.9877188, 4.531996e-08, 0.1562422, 2.1935785, 4.1713915, -4.806306)
+light_color = Color(1, 0.70560676, 0.37189168, 1)
+light_energy = 0.0
+omni_range = 4096.0
+omni_attenuation = 2.0
+
+[node name="lamp_light_1st_floor_08" type="OmniLight3D" parent="Lighting/Lamps" unique_id=1269872013]
+transform = Transform3D(0.1562422, -3.8714532e-08, -0.9877188, -3.8714536e-08, 1, -4.5319965e-08, 0.9877188, 4.531996e-08, 0.1562422, -1.849446, 4.1713915, -4.806306)
+light_color = Color(1, 0.70560676, 0.37189168, 1)
+light_energy = 0.0
+omni_range = 4096.0
+omni_attenuation = 2.0
+
+[node name="lamp_light_1st_floor_07" type="OmniLight3D" parent="Lighting/Lamps" unique_id=1155948839]
+transform = Transform3D(0.1562422, -3.8714532e-08, -0.9877188, -3.8714536e-08, 1, -4.5319965e-08, 0.9877188, 4.531996e-08, 0.1562422, -5.928595, 4.1713915, -4.806306)
+light_color = Color(1, 0.70560676, 0.37189168, 1)
+light_energy = 0.0
+omni_range = 4096.0
+omni_attenuation = 2.0
+
+[node name="lamp_light_1st_floor_06" type="OmniLight3D" parent="Lighting/Lamps" unique_id=591943540]
+transform = Transform3D(0.1562422, -3.8714532e-08, -0.9877188, -3.8714536e-08, 1, -4.5319965e-08, 0.9877188, 4.531996e-08, 0.1562422, -9.82472, 4.1713915, -4.806306)
+light_color = Color(1, 0.70560676, 0.37189168, 1)
+light_energy = 0.0
+omni_range = 4096.0
+omni_attenuation = 2.0
+
+[node name="lamp_light_1st_floor_05" type="OmniLight3D" parent="Lighting/Lamps" unique_id=303983672]
+transform = Transform3D(0.1562422, -3.8714532e-08, -0.9877188, -3.8714536e-08, 1, -4.5319965e-08, 0.9877188, 4.531996e-08, 0.1562422, 10.024332, 4.1713915, 4.757481)
+light_color = Color(1, 0.70560676, 0.37189168, 1)
+light_energy = 0.0
+omni_range = 4096.0
+omni_attenuation = 2.0
+
+[node name="lamp_light_1st_floor_04" type="OmniLight3D" parent="Lighting/Lamps" unique_id=1509740049]
+transform = Transform3D(0.1562422, -3.8714532e-08, -0.9877188, -3.8714536e-08, 1, -4.5319965e-08, 0.9877188, 4.531996e-08, 0.1562422, 6.141829, 4.1713915, 4.742171)
+light_color = Color(1, 0.70560676, 0.37189168, 1)
+light_energy = 0.0
+omni_range = 4096.0
+omni_attenuation = 2.0
+
+[node name="lamp_light_1st_floor_03" type="OmniLight3D" parent="Lighting/Lamps" unique_id=1336092648]
+transform = Transform3D(0.1562422, -3.8714532e-08, -0.9877188, -3.8714536e-08, 1, -4.5319965e-08, 0.9877188, 4.531996e-08, 0.1562422, 2.1935785, 4.1713915, 4.742171)
+light_color = Color(1, 0.70560676, 0.37189168, 1)
+light_energy = 0.0
+omni_range = 4096.0
+omni_attenuation = 2.0
+
+[node name="lamp_light_1st_floor_02" type="OmniLight3D" parent="Lighting/Lamps" unique_id=1465400890]
+transform = Transform3D(0.1562422, -3.8714532e-08, -0.9877188, -3.8714536e-08, 1, -4.5319965e-08, 0.9877188, 4.531996e-08, 0.1562422, -1.849446, 4.1713915, 4.742171)
+light_color = Color(1, 0.70560676, 0.37189168, 1)
+light_energy = 0.0
+omni_range = 4096.0
+omni_attenuation = 2.0
+
+[node name="lamp_light_1st_floor_01" type="OmniLight3D" parent="Lighting/Lamps" unique_id=1754437627]
+transform = Transform3D(0.1562422, -3.8714532e-08, -0.9877188, -3.8714536e-08, 1, -4.5319965e-08, 0.9877188, 4.531996e-08, 0.1562422, -5.928595, 4.1713915, 4.742171)
+light_color = Color(1, 0.70560676, 0.37189168, 1)
+light_energy = 0.0
+omni_range = 4096.0
+omni_attenuation = 2.0
+
+[node name="lamp_light_1st_floor_13" type="OmniLight3D" parent="Lighting/Lamps" unique_id=2034666372]
+transform = Transform3D(0.1562422, -3.8714532e-08, -0.9877188, -3.8714536e-08, 1, -4.5319965e-08, 0.9877188, 4.531996e-08, 0.1562422, -9.82472, 4.1713915, 4.742171)
+light_color = Color(1, 0.70560676, 0.37189168, 1)
+light_energy = 0.0
+omni_range = 4096.0
+omni_attenuation = 2.0
+
+[node name="lamp_light_2nd_floor_08" type="OmniLight3D" parent="Lighting/Lamps" unique_id=1813724982]
+transform = Transform3D(0.1562422, -3.8714532e-08, -0.9877188, -3.8714536e-08, 1, -4.5319965e-08, 0.9877188, 4.531996e-08, 0.1562422, -5.848376, 9.285233, 4.6650343)
+light_color = Color(1, 0.70560676, 0.37189168, 1)
+light_energy = 0.0
+omni_range = 4096.0
+omni_attenuation = 2.0
+
+[node name="lamp_light_2nd_floor_01" type="OmniLight3D" parent="Lighting/Lamps" unique_id=1098331335]
+transform = Transform3D(0.1562422, -3.8714532e-08, -0.9877188, -3.8714536e-08, 1, -4.5319965e-08, 0.9877188, 4.531996e-08, 0.1562422, -9.765947, 9.285233, 4.742171)
+light_color = Color(1, 0.70560676, 0.37189168, 1)
+light_energy = 0.0
+omni_range = 4096.0
+omni_attenuation = 2.0
+
+[node name="lamp_light_2nd_floor_02" type="OmniLight3D" parent="Lighting/Lamps" unique_id=925020366]
+transform = Transform3D(0.1562422, -3.8714532e-08, -0.9877188, -3.8714536e-08, 1, -4.5319965e-08, 0.9877188, 4.531996e-08, 0.1562422, 2.1614978, 9.285233, 4.6650343)
+light_color = Color(1, 0.70560676, 0.37189168, 1)
+light_energy = 0.0
+omni_range = 4096.0
+omni_attenuation = 2.0
+
+[node name="lamp_light_2nd_floor_03" type="OmniLight3D" parent="Lighting/Lamps" unique_id=1156522946]
+transform = Transform3D(0.1562422, -3.8714532e-08, -0.9877188, -3.8714536e-08, 1, -4.5319965e-08, 0.9877188, 4.531996e-08, 0.1562422, 10.075267, 9.285233, 4.725814)
+light_color = Color(1, 0.70560676, 0.37189168, 1)
+light_energy = 0.0
+omni_range = 4096.0
+omni_attenuation = 2.0
+
+[node name="lamp_light_2nd_floor_04" type="OmniLight3D" parent="Lighting/Lamps" unique_id=205610540]
+transform = Transform3D(0.1562422, -3.8714532e-08, -0.9877188, -3.8714536e-08, 1, -4.5319965e-08, 0.9877188, 4.531996e-08, 0.1562422, 10.075267, 9.285233, -4.7271085)
+light_color = Color(1, 0.70560676, 0.37189168, 1)
+light_energy = 0.0
+omni_range = 4096.0
+omni_attenuation = 2.0
+
+[node name="lamp_light_2nd_floor_05" type="OmniLight3D" parent="Lighting/Lamps" unique_id=687761104]
+transform = Transform3D(0.1562422, -3.8714532e-08, -0.9877188, -3.8714536e-08, 1, -4.5319965e-08, 0.9877188, 4.531996e-08, 0.1562422, 2.0937212, 9.285233, -4.6540666)
+light_color = Color(1, 0.70560676, 0.37189168, 1)
+light_energy = 0.0
+omni_range = 4096.0
+omni_attenuation = 2.0
+
+[node name="lamp_light_2nd_floor_06" type="OmniLight3D" parent="Lighting/Lamps" unique_id=1062954440]
+transform = Transform3D(0.1562422, -3.8714532e-08, -0.9877188, -3.8714536e-08, 1, -4.5319965e-08, 0.9877188, 4.531996e-08, 0.1562422, -5.84765, 9.285233, -4.663137)
+light_color = Color(1, 0.7611144, 0.4748393, 1)
+light_energy = 0.0
+omni_range = 4096.0
+omni_attenuation = 2.0
+
+[node name="lamp_light_2nd_floor_07" type="OmniLight3D" parent="Lighting/Lamps" unique_id=174598911]
+transform = Transform3D(0.1562422, -3.8714532e-08, -0.9877188, -3.8714536e-08, 1, -4.5319965e-08, 0.9877188, 4.531996e-08, 0.1562422, -9.751104, 9.285233, -4.729569)
+light_color = Color(1, 0.70560676, 0.37189168, 1)
+light_energy = 0.0
+omni_range = 4096.0
+omni_attenuation = 2.0
+
+[node name="lamp_light_1st_floor_14" type="OmniLight3D" parent="Lighting/Lamps" unique_id=1391727049]
+transform = Transform3D(0.1562422, -3.8714532e-08, -0.9877188, -3.8714536e-08, 1, -4.5319965e-08, 0.9877188, 4.531996e-08, 0.1562422, -13.589994, 3.867794, 0.06591804)
+light_color = Color(1, 0.70560676, 0.37189168, 1)
+light_energy = 0.0
+omni_range = 4096.0
+omni_attenuation = 2.0
+
+[node name="Directional Light Sun" type="DirectionalLight3D" parent="Lighting" unique_id=1896365223]
+transform = Transform3D(-0.18786299, 0.8133757, -0.5505702, -1.1920929e-07, 0.56055063, 0.8281202, 0.98219526, 0.1555732, -0.10530662, -21.704859, 43.41434, -6.1498837)
+light_color = Color(0.99999994, 0.99999994, 1, 1)
+shadow_enabled = true
+
+[node name="Geometry" type="Node3D" parent="." unique_id=1296365612]
+
+[node name="Floor 01" type="Node3D" parent="Geometry" unique_id=1162188789]
+
+[node name="arch_stones_01" type="MeshInstance3D" parent="Geometry/Floor 01" unique_id=793353898]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.14015014, 4.0691648, 3.0872087)
+mesh = ExtResource("1_8mj5i")
+
+[node name="arch_stones_02" type="MeshInstance3D" parent="Geometry/Floor 01" unique_id=290728462]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.14014892, 4.0691648, -3.114765)
+mesh = ExtResource("2_b76oc")
+
+[node name="arch_stones_03" type="MeshInstance3D" parent="Geometry/Floor 01" unique_id=1878169415]
+transform = Transform3D(1, 0, 1.7484555e-07, 0, 1, 0, -1.7484555e-07, 0, 1, 0.11376464, 4.373891, -0.016881408)
+mesh = ExtResource("3_sovbk")
+
+[node name="ceiling_1stfloor_01" type="MeshInstance3D" parent="Geometry/Floor 01" unique_id=2046986936]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.40212217, 4.0961604, -0.15080445)
+mesh = ExtResource("4_gvkrq")
+
+[node name="ceiling_1stfloor_02" type="MeshInstance3D" parent="Geometry/Floor 01" unique_id=1212812990]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 15.272646, 3.912449, -2.094284)
+mesh = ExtResource("5_ggsp4")
+
+[node name="columns_1stfloor_01" type="MeshInstance3D" parent="Geometry/Floor 01" unique_id=951337301]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8.329468, -0.011514129, -0.031897802)
+mesh = ExtResource("6_biddm")
+
+[node name="columns_1stfloor_02" type="MeshInstance3D" parent="Geometry/Floor 01" unique_id=1867372046]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.207321, -0.012799835, -0.04089896)
+mesh = ExtResource("7_4m72y")
+
+[node name="columns_1stfloor_03" type="MeshInstance3D" parent="Geometry/Floor 01" unique_id=588313512]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.14418487, -0.0118298335, -0.036201544)
+mesh = ExtResource("8_r4wx2")
+
+[node name="columns_1stfloor_04" type="MeshInstance3D" parent="Geometry/Floor 01" unique_id=379397691]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.8963153, -0.011481476, -0.036933966)
+mesh = ExtResource("9_24kbb")
+
+[node name="columns_1stfloor_05" type="MeshInstance3D" parent="Geometry/Floor 01" unique_id=95556186]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -8.081866, -0.011514129, -0.029485997)
+mesh = ExtResource("10_yi330")
+
+[node name="lamp_1stfloor_entrance" type="MeshInstance3D" parent="Geometry/Floor 01" unique_id=584778676]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 15.610797, 3.8830862, -0.9186579)
+mesh = ExtResource("11_rkdb3")
+
+[node name="lamps_1stfloor_03" type="MeshInstance3D" parent="Geometry/Floor 01" unique_id=1911352743]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.852336, 4.823324, -4.795822)
+mesh = ExtResource("12_sxvb5")
+
+[node name="ornament_doors_01" type="MeshInstance3D" parent="Geometry/Floor 01" unique_id=524650594]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 15.481618, 1.5200446, 1.4644958)
+mesh = ExtResource("13_rknyr")
+
+[node name="ornament_doors_02" type="MeshInstance3D" parent="Geometry/Floor 01" unique_id=1520898818]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 18.311361, 0.8876335, -3.912816)
+mesh = ExtResource("14_ecvsd")
+
+[node name="ornament_doors_03" type="MeshInstance3D" parent="Geometry/Floor 01" unique_id=475806677]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6.1955514, 1.7943835, 6.1333275)
+mesh = ExtResource("15_x55y3")
+
+[node name="ornament_doors_04" type="MeshInstance3D" parent="Geometry/Floor 01" unique_id=1222065574]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.1816626, 1.7943835, 6.1333275)
+mesh = ExtResource("16_6j0ml")
+
+[node name="ornament_doors_05" type="MeshInstance3D" parent="Geometry/Floor 01" unique_id=639653190]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.8183588, 1.7943835, 6.1333275)
+mesh = ExtResource("17_ndxga")
+
+[node name="ornament_doors_06" type="MeshInstance3D" parent="Geometry/Floor 01" unique_id=857308092]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5.7769732, 1.7943835, 6.1333275)
+mesh = ExtResource("18_rotbu")
+
+[node name="ornament_doors_07" type="MeshInstance3D" parent="Geometry/Floor 01" unique_id=1740657519]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -11.230161, 1.7943835, 4.657639)
+mesh = ExtResource("19_vjhby")
+
+[node name="ornament_doors_08" type="MeshInstance3D" parent="Geometry/Floor 01" unique_id=653652550]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -9.720213, 1.7943835, 6.1392994)
+mesh = ExtResource("20_hv3uc")
+
+[node name="ornament_doors_09" type="MeshInstance3D" parent="Geometry/Floor 01" unique_id=542869491]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.0485272, 1.8174022, -6.098108)
+mesh = ExtResource("21_imdti")
+
+[node name="ornament_doors_10" type="MeshInstance3D" parent="Geometry/Floor 01" unique_id=1280827485]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -9.992214, 1.8124776, -4.9496727)
+mesh = ExtResource("22_qvk4v")
+
+[node name="ornament_stones_01" type="MeshInstance3D" parent="Geometry/Floor 01" unique_id=654264447]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.2055011, 2.8793657, -0.13393188)
+mesh = ExtResource("23_j3306")
+
+[node name="walls_1stfloor_01" type="MeshInstance3D" parent="Geometry/Floor 01" unique_id=2130316615]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.0093212, 2.1693685, -0.03623718)
+mesh = ExtResource("24_qv8y0")
+
+[node name="wood_door" type="MeshInstance3D" parent="Geometry/Floor 01" unique_id=218233917]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 19.49186, 0.77861756, 0.03165676)
+mesh = ExtResource("25_j0j3v")
+
+[node name="wooden_parts" type="MeshInstance3D" parent="Geometry/Floor 01" unique_id=135108379]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 14.160348, 1.8342667, -2.4963994)
+mesh = ExtResource("26_30348")
+
+[node name="exterior" type="MeshInstance3D" parent="Geometry/Floor 01" unique_id=584439299]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.877865, 8.259137, 0.49651304)
+mesh = ExtResource("27_8vypv")
+
+[node name="lamps_1stfloor_04" type="MeshInstance3D" parent="Geometry/Floor 01" unique_id=796772117]
+transform = Transform3D(0.8660254, 0, -0.5, 0, 1, 0, 0.5, 0, 0.8660254, 2.1830301, 4.823324, -4.795822)
+mesh = ExtResource("28_wvx3f")
+
+[node name="lamps_1stfloor_05" type="MeshInstance3D" parent="Geometry/Floor 01" unique_id=468158915]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6.146513, 4.823324, -4.795822)
+mesh = ExtResource("29_i8aba")
+
+[node name="lamps_1stfloor_06" type="MeshInstance3D" parent="Geometry/Floor 01" unique_id=1832822619]
+transform = Transform3D(0.9396926, 0, 0.34202018, 0, 1, 0, -0.34202018, 0, 0.9396926, 10.027344, 4.823324, -4.795822)
+mesh = ExtResource("30_k6eol")
+
+[node name="lamps_1stfloor_02" type="MeshInstance3D" parent="Geometry/Floor 01" unique_id=617155514]
+transform = Transform3D(0.9848077, 0, 0.17364821, 0, 1, 0, -0.17364821, 0, 0.9848077, -5.9220834, 4.823324, -4.794542)
+mesh = ExtResource("31_8nkfm")
+
+[node name="lamps_1stfloor_01" type="MeshInstance3D" parent="Geometry/Floor 01" unique_id=1523881268]
+transform = Transform3D(0.8660254, 0, 0.5, 0, 1, 0, -0.5, 0, 0.8660254, -9.825387, 4.823324, -4.794542)
+mesh = ExtResource("32_gfrk4")
+
+[node name="lamps_1stfloor_00" type="MeshInstance3D" parent="Geometry/Floor 01" unique_id=1784427666]
+transform = Transform3D(0.4226182, 0, 0.9063078, 0, 1, 0, -0.9063078, 0, 0.4226182, -13.5982065, 4.5638723, 0.062637106)
+mesh = ExtResource("33_qhhi7")
+
+[node name="lamps_1stfloor_09" type="MeshInstance3D" parent="Geometry/Floor 01" unique_id=391442570]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.852336, 4.823324, 4.739069)
+mesh = ExtResource("34_dh0sj")
+
+[node name="lamps_1stfloor_08" type="MeshInstance3D" parent="Geometry/Floor 01" unique_id=1823126153]
+transform = Transform3D(0.9848077, 0, 0.17364821, 0, 1, 0, -0.17364821, 0, 0.9848077, -5.9220834, 4.823324, 4.740349)
+mesh = ExtResource("35_7eqcx")
+
+[node name="lamps_1stfloor_07" type="MeshInstance3D" parent="Geometry/Floor 01" unique_id=1953936193]
+transform = Transform3D(0.8660254, 0, 0.5, 0, 1, 0, -0.5, 0, 0.8660254, -9.825387, 4.823324, 4.740349)
+mesh = ExtResource("36_1u6xq")
+
+[node name="lamps_1stfloor_12" type="MeshInstance3D" parent="Geometry/Floor 01" unique_id=1103944447]
+transform = Transform3D(0.9659258, 0, -0.25881907, 0, 1, 0, 0.25881907, 0, 0.9659258, 10.158051, 4.823324, 4.743867)
+mesh = ExtResource("37_3aqnh")
+
+[node name="lamps_1stfloor_10" type="MeshInstance3D" parent="Geometry/Floor 01" unique_id=1271960907]
+transform = Transform3D(0.8660254, 0, -0.5, 0, 1, 0, 0.5, 0, 0.8660254, 2.1830301, 4.823324, 4.739069)
+mesh = ExtResource("38_cdisn")
+
+[node name="lamps_1stfloor_11" type="MeshInstance3D" parent="Geometry/Floor 01" unique_id=1829870975]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6.146513, 4.823324, 4.739069)
+mesh = ExtResource("39_fd2x5")
+
+[node name="floor_1stfloor_01" type="MeshInstance3D" parent="Geometry/Floor 01" unique_id=2061809933]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.0554175, -0.42519408, -0.04547119)
+mesh = ExtResource("40_4ekjk")
+
+[node name="arch_stones_04" type="MeshInstance3D" parent="Geometry/Floor 01" unique_id=545495238]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.0093212, 2.1693685, -0.03623718)
+mesh = ExtResource("41_2tufj")
+
+[node name="arch_stones_05" type="MeshInstance3D" parent="Geometry/Floor 01" unique_id=1850321230]
+transform = Transform3D(1, 0, 1.7484555e-07, 0, 1, 0, -1.7484555e-07, 0, 1, 0.11376464, 4.373891, -0.016881408)
+mesh = ExtResource("42_2ethr")
+
+[node name="lionhead" type="MeshInstance3D" parent="Geometry/Floor 01" unique_id=1710495878]
+transform = Transform3D(-5.6023957e-08, 0, 0.46996295, 0, 0.46996295, 0, -0.46996295, 0, -5.6023957e-08, -15.945751, 0.22804444, 0.09938076)
+mesh = ExtResource("43_856q3")
+
+[node name="decals_1st_floor" type="MeshInstance3D" parent="Geometry/Floor 01" unique_id=1769185832]
+transform = Transform3D(-4.7683716e-07, 1, -2.9802322e-08, -2.9802322e-08, 0, -1, -1, -4.7683716e-07, 5.9604645e-08, -11.116789, 1.1709985, -4.7802944)
+visible = false
+mesh = ExtResource("44_ys7if")
+
+[node name="walls_1stfloor_02" type="MeshInstance3D" parent="Geometry/Floor 01" unique_id=931364001]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.0093212, 2.1693685, -0.03623718)
+mesh = ExtResource("45_mvaah")
+
+[node name="Floor 02" type="Node3D" parent="Geometry" unique_id=726176152]
+
+[node name="column_2ndfloor_19" type="MeshInstance3D" parent="Geometry/Floor 02" unique_id=1071988425]
+transform = Transform3D(1, 0, 1.7484555e-07, 0, 1, 0, -1.7484555e-07, 0, 1, -8.144192, 6.1001606, 0.021669254)
+mesh = ExtResource("46_txfju")
+
+[node name="column_2ndfloor_20" type="MeshInstance3D" parent="Geometry/Floor 02" unique_id=387984106]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5.8569274, 6.1001606, 3.072449)
+mesh = ExtResource("47_nrd53")
+
+[node name="column_2ndfloor_18" type="MeshInstance3D" parent="Geometry/Floor 02" unique_id=722846283]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5.8735313, 6.1001606, -3.0848198)
+mesh = ExtResource("48_2a5om")
+
+[node name="column_2ndfloor_17" type="MeshInstance3D" parent="Geometry/Floor 02" unique_id=886114228]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -8.069544, 6.1085377, -2.9921136)
+mesh = ExtResource("49_8y1j0")
+
+[node name="column_2ndfloor_16" type="MeshInstance3D" parent="Geometry/Floor 02" unique_id=2057564608]
+transform = Transform3D(1, -1.7484555e-07, 0, 1.7484555e-07, 1, 0, 0, 0, 1, -8.063949, 6.06661, 2.9510303)
+mesh = ExtResource("50_6aijl")
+
+[node name="ceiling_2ndfloor" type="MeshInstance3D" parent="Geometry/Floor 02" unique_id=1947727003]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.14894958, 9.553944, -0.050252073)
+mesh = ExtResource("51_vekjs")
+
+[node name="arch_wall_2ndfloor" type="MeshInstance3D" parent="Geometry/Floor 02" unique_id=1499187496]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.25837982, 9.925777, -0.020968933)
+mesh = ExtResource("52_mush8")
+
+[node name="lamps_2ndfloor_05" type="MeshInstance3D" parent="Geometry/Floor 02" unique_id=521607285]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 10.064915, 10.383441, 4.720072)
+mesh = ExtResource("53_lo1pn")
+
+[node name="stonewalls_2ndfloor_01" type="MeshInstance3D" parent="Geometry/Floor 02" unique_id=1739852427]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.1390631, 7.8550887, 0.114630125)
+mesh = ExtResource("54_0srer")
+
+[node name="ornament_stones_2ndfloor" type="MeshInstance3D" parent="Geometry/Floor 02" unique_id=211322641]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.15320617, 8.437972, -0.02905426)
+mesh = ExtResource("55_gthj1")
+
+[node name="column_2ndfloor_01" type="MeshInstance3D" parent="Geometry/Floor 02" unique_id=1675104561]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.8596532, 6.1085367, 3.1062744)
+mesh = ExtResource("56_005uk")
+
+[node name="column_2ndfloor_02" type="MeshInstance3D" parent="Geometry/Floor 02" unique_id=1094895697]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.1429721, 6.1077566, 3.10325)
+mesh = ExtResource("57_nfs6y")
+
+[node name="column_2ndfloor_03" type="MeshInstance3D" parent="Geometry/Floor 02" unique_id=1201394662]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.1581407, 6.108539, 3.1034036)
+mesh = ExtResource("58_vm4at")
+
+[node name="column_2ndfloor_04" type="MeshInstance3D" parent="Geometry/Floor 02" unique_id=1072725289]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8.318652, 6.1085386, 2.9791896)
+mesh = ExtResource("59_fmajt")
+
+[node name="column_2ndfloor_05" type="MeshInstance3D" parent="Geometry/Floor 02" unique_id=1801508900]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.8596532, 6.1085367, -3.1314733)
+mesh = ExtResource("60_24u8w")
+
+[node name="column_2ndfloor_06" type="MeshInstance3D" parent="Geometry/Floor 02" unique_id=1807737674]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.14740081, 6.1077557, -3.1207604)
+mesh = ExtResource("61_tmpbf")
+
+[node name="column_2ndfloor_07" type="MeshInstance3D" parent="Geometry/Floor 02" unique_id=882767394]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.148005, 6.108536, -3.1275964)
+mesh = ExtResource("62_3kxyw")
+
+[node name="column_2ndfloor_08" type="MeshInstance3D" parent="Geometry/Floor 02" unique_id=490804145]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8.317799, 6.108539, -2.9828436)
+mesh = ExtResource("63_jw8xg")
+
+[node name="column_2ndfloor_09" type="MeshInstance3D" parent="Geometry/Floor 02" unique_id=920976125]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.8593943, 6.1001606, -3.0848198)
+mesh = ExtResource("64_5sjeb")
+
+[node name="column_2ndfloor_10" type="MeshInstance3D" parent="Geometry/Floor 02" unique_id=1279031971]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.1651018, 6.1001606, -3.0848207)
+mesh = ExtResource("65_85dn5")
+
+[node name="column_2ndfloor_11" type="MeshInstance3D" parent="Geometry/Floor 02" unique_id=48016275]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6.153646, 6.1001606, -3.0848196)
+mesh = ExtResource("66_55llj")
+
+[node name="column_2ndfloor_12" type="MeshInstance3D" parent="Geometry/Floor 02" unique_id=829901562]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.8683826, 6.1001606, 3.0724497)
+mesh = ExtResource("67_vgpxo")
+
+[node name="column_2ndfloor_13" type="MeshInstance3D" parent="Geometry/Floor 02" unique_id=1363179234]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.1561136, 6.1001606, 3.0724483)
+mesh = ExtResource("68_xjqes")
+
+[node name="column_2ndfloor_14" type="MeshInstance3D" parent="Geometry/Floor 02" unique_id=1875562864]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6.17025, 6.1001606, 3.072448)
+mesh = ExtResource("69_myia3")
+
+[node name="column_2ndfloor_15" type="MeshInstance3D" parent="Geometry/Floor 02" unique_id=1132300231]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8.4205, 6.1001606, -0.030615902)
+mesh = ExtResource("70_rjq62")
+
+[node name="ornament_door_2ndfloor_01" type="MeshInstance3D" parent="Geometry/Floor 02" unique_id=650466673]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.2743313, 5.4509306, -7.4685016)
+mesh = ExtResource("71_fyu8p")
+
+[node name="ornament_door_2ndfloor_02" type="MeshInstance3D" parent="Geometry/Floor 02" unique_id=401300370]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.8412056, 5.4509306, -7.4685016)
+mesh = ExtResource("72_5vkwj")
+
+[node name="ornament_door_2ndfloor_04" type="MeshInstance3D" parent="Geometry/Floor 02" unique_id=1671397596]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6.1605406, 5.432582, -7.4527836)
+mesh = ExtResource("73_kw8vn")
+
+[node name="ornament_door_2ndfloor_05" type="MeshInstance3D" parent="Geometry/Floor 02" unique_id=520331971]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 10.058539, 5.4509306, -7.468504)
+mesh = ExtResource("74_uxyth")
+
+[node name="ornament_door_2ndfloor_06" type="MeshInstance3D" parent="Geometry/Floor 02" unique_id=2015566937]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -9.63487, 5.4509306, -7.4684978)
+mesh = ExtResource("75_jqros")
+
+[node name="ornament_door_2ndfloor_07" type="MeshInstance3D" parent="Geometry/Floor 02" unique_id=552263557]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -12.403195, 5.4376397, 0.12462028)
+mesh = ExtResource("76_nys47")
+
+[node name="ornament_door_2ndfloor_08" type="MeshInstance3D" parent="Geometry/Floor 02" unique_id=2072978697]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -12.421672, 5.4509296, -4.708145)
+mesh = ExtResource("77_mmuo4")
+
+[node name="ornament_door_2ndfloor_09" type="MeshInstance3D" parent="Geometry/Floor 02" unique_id=1843060315]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -12.424445, 5.4509296, 4.697773)
+mesh = ExtResource("78_qti67")
+
+[node name="ornament_door_2ndfloor_10" type="MeshInstance3D" parent="Geometry/Floor 02" unique_id=993502508]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.2569923, 5.4509296, 7.430117)
+mesh = ExtResource("79_02xaq")
+
+[node name="ornament_door_2ndfloor_11" type="MeshInstance3D" parent="Geometry/Floor 02" unique_id=1857272083]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.9147946, 5.4509296, 7.430118)
+mesh = ExtResource("80_so71o")
+
+[node name="ornament_door_2ndfloor_12" type="MeshInstance3D" parent="Geometry/Floor 02" unique_id=2050245348]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5.84104, 5.4509296, 7.4301195)
+mesh = ExtResource("81_hn8m3")
+
+[node name="ornament_door_2ndfloor_13" type="MeshInstance3D" parent="Geometry/Floor 02" unique_id=1279323091]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -9.692322, 5.4509296, 7.4301205)
+mesh = ExtResource("82_veh3v")
+
+[node name="ornament_door_2ndfloor_14" type="MeshInstance3D" parent="Geometry/Floor 02" unique_id=1248687435]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 10.040162, 4.796762, 7.4077744)
+mesh = ExtResource("83_skqbk")
+
+[node name="ornament_door_2ndfloor_15" type="MeshInstance3D" parent="Geometry/Floor 02" unique_id=1779971517]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 12.739145, 5.422553, 4.7360144)
+mesh = ExtResource("84_n28wa")
+
+[node name="ornament_door_2ndfloor_03" type="MeshInstance3D" parent="Geometry/Floor 02" unique_id=1017359512]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5.742909, 5.4509306, -7.4685016)
+mesh = ExtResource("85_tow8b")
+
+[node name="lamps_2ndfloor_06" type="MeshInstance3D" parent="Geometry/Floor 02" unique_id=1401949203]
+transform = Transform3D(0.9961947, 0, -0.08715576, 0, 1, 0, 0.08715576, 0, 0.9961947, 2.1635416, 10.383441, 4.6642475)
+mesh = ExtResource("86_ikwiq")
+
+[node name="lamps_2ndfloor_07" type="MeshInstance3D" parent="Geometry/Floor 02" unique_id=919411191]
+transform = Transform3D(0.17364812, 0, -0.9848078, 0, 1, 0, 0.9848078, 0, 0.17364812, -5.847364, 10.383441, 4.670384)
+mesh = ExtResource("87_m2lgy")
+
+[node name="lamps_2ndfloor_08" type="MeshInstance3D" parent="Geometry/Floor 02" unique_id=50992177]
+transform = Transform3D(-0.4226184, 0, -0.90630776, 0, 1, 0, 0.90630776, 0, -0.4226184, -9.773459, 10.383441, 4.7402296)
+mesh = ExtResource("88_d7swq")
+
+[node name="lamps_2ndfloor_03" type="MeshInstance3D" parent="Geometry/Floor 02" unique_id=1799875166]
+transform = Transform3D(0.96592575, 0, 0.25881904, 0, 1, 0, -0.25881904, 0, 0.96592575, 2.1634457, 10.383441, -4.6953483)
+mesh = ExtResource("89_3x8oh")
+
+[node name="lamps_2ndfloor_02" type="MeshInstance3D" parent="Geometry/Floor 02" unique_id=1488826112]
+transform = Transform3D(-0.5000001, 0, -0.8660254, 0, 1, 0, 0.8660254, 0, -0.5000001, -5.852589, 10.383441, -4.661562)
+mesh = ExtResource("90_43rqs")
+
+[node name="lamps_2ndfloor_01" type="MeshInstance3D" parent="Geometry/Floor 02" unique_id=1114221842]
+transform = Transform3D(-0.08715594, 0, -0.9961947, 0, 1, 0, 0.9961947, 0, -0.08715594, -9.753705, 10.383441, -4.7264633)
+mesh = ExtResource("91_mbcyt")
+
+[node name="lamps_2ndfloor_04" type="MeshInstance3D" parent="Geometry/Floor 02" unique_id=720227183]
+transform = Transform3D(0.8660254, 0, -0.5, 0, 1, 0, 0.5, 0, 0.8660254, 10.066172, 10.383441, -4.7245164)
+mesh = ExtResource("92_72qtv")
+
+[node name="stonewalls_2ndfloor_02" type="MeshInstance3D" parent="Geometry/Floor 02" unique_id=1578124325]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.1390631, 7.8550887, 0.114630125)
+mesh = ExtResource("93_hbgki")
+
+[node name="decals_2nd_floor" type="MeshInstance3D" parent="Geometry/Floor 02" unique_id=788209964]
+transform = Transform3D(-1, 0, -2.3849761e-08, 0, 1, 0, 2.3849761e-08, 0, -1, 0.1679242, 8.079009, -0.30849546)
+visible = false
+mesh = ExtResource("94_oq65o")
+
+[node name="Floor 03" type="Node3D" parent="Geometry" unique_id=942102350]
+
+[node name="roof_floor_03_01" type="MeshInstance3D" parent="Geometry/Floor 03" unique_id=1015469211]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -11.028592, 16.175005, 5.498769)
+mesh = ExtResource("95_58ykm")
+
+[node name="roof_floor_03_02" type="MeshInstance3D" parent="Geometry/Floor 03" unique_id=1203742076]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.8206982, 16.175005, 5.4987693)
+mesh = ExtResource("96_xrdmw")
+
+[node name="orn_windows_01" type="MeshInstance3D" parent="Geometry/Floor 03" unique_id=728318155]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.0220263, 12.184655, 0.006693878)
+mesh = ExtResource("97_njeu5")
+
+[node name="sponza_ornament" type="MeshInstance3D" parent="Geometry/Floor 03" unique_id=1820601257]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -7.899508, 13.326275, -0.011113815)
+mesh = ExtResource("98_vm60y")
+
+[node name="ornament_roof" type="MeshInstance3D" parent="Geometry/Floor 03" unique_id=1717265655]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.8993909, 15.942468, -0.0030139158)
+mesh = ExtResource("99_3xtl7")
+
+[node name="roof_floor_03_09" type="MeshInstance3D" parent="Geometry/Floor 03" unique_id=1033847752]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -11.032136, 16.172346, -5.472142)
+mesh = ExtResource("100_1c28h")
+
+[node name="roof_floor_03_10" type="MeshInstance3D" parent="Geometry/Floor 03" unique_id=816158378]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.84032834, 16.175005, -5.476743)
+mesh = ExtResource("101_0n5xw")
+
+[node name="roof_floor_03_05" type="MeshInstance3D" parent="Geometry/Floor 03" unique_id=1585366250]
+transform = Transform3D(1, 0, 1.7484555e-07, 0, 1, 0, -1.7484555e-07, 0, 1, 10.204414, 16.703466, 0.14466888)
+mesh = ExtResource("102_yxgs0")
+
+[node name="roof_floor_03_06" type="MeshInstance3D" parent="Geometry/Floor 03" unique_id=345838853]
+transform = Transform3D(1, 0, 1.7484555e-07, 0, 1, 0, -1.7484555e-07, 0, 1, -11.965725, 16.884779, 0.01802246)
+mesh = ExtResource("103_q130y")
+
+[node name="roof_floor_03_07" type="MeshInstance3D" parent="Geometry/Floor 03" unique_id=217013491]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 7.446068, 16.175005, 5.4987683)
+mesh = ExtResource("104_atr5u")
+
+[node name="roof_floor_03_08" type="MeshInstance3D" parent="Geometry/Floor 03" unique_id=1332607852]
+transform = Transform3D(1, 0, 1.7484555e-07, 0, 1, 0, -1.7484555e-07, 0, 1, 7.517241, 16.175005, -5.4767466)
+mesh = ExtResource("105_tfrg8")
+
+[node name="walls_floor_03" type="MeshInstance3D" parent="Geometry/Floor 03" unique_id=938705219]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.4462537, 13.452463, 0.049446717)
+mesh = ExtResource("106_f4ac6")
+
+[node name="orn_windows_08" type="MeshInstance3D" parent="Geometry/Floor 03" unique_id=960135594]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8.24848, 14.930735, 0.034017332)
+mesh = ExtResource("107_05c75")
+
+[node name="orn_windows_07" type="MeshInstance3D" parent="Geometry/Floor 03" unique_id=505258694]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.12733795, 14.929462, -2.9162285)
+mesh = ExtResource("108_606ku")
+
+[node name="orn_windows_06" type="MeshInstance3D" parent="Geometry/Floor 03" unique_id=332165237]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.20876312, 14.9294615, 2.9420452)
+mesh = ExtResource("109_0t8jv")
+
+[node name="orn_windows_05" type="MeshInstance3D" parent="Geometry/Floor 03" unique_id=1357300759]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.0220263, 12.184655, 0.006693878)
+mesh = ExtResource("110_mlpmg")
+
+[node name="orn_windows_04" type="MeshInstance3D" parent="Geometry/Floor 03" unique_id=1831950005]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.0220263, 12.184655, 0.006693878)
+mesh = ExtResource("111_lx04l")
+
+[node name="orn_windows_03" type="MeshInstance3D" parent="Geometry/Floor 03" unique_id=1840148399]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.0220263, 12.184655, 0.006693878)
+mesh = ExtResource("112_is2qm")
+
+[node name="orn_windows_02" type="MeshInstance3D" parent="Geometry/Floor 03" unique_id=924967441]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.0220263, 12.184655, 0.006693878)
+mesh = ExtResource("113_7jhal")
+
+[node name="decals_3rd_floor" type="MeshInstance3D" parent="Geometry/Floor 03" unique_id=1465660099]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.09102356, 12.530001, 0.18152206)
+visible = false
+mesh = ExtResource("114_o762x")
+
+[node name="master_material" type="MeshInstance3D" parent="Geometry" unique_id=1988882528]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.9864367, 5e-07, 13.863933)
+mesh = ExtResource("115_o2ymv")
+
+[node name="Cameras" type="Node3D" parent="." unique_id=1658467655]
+
+[node name="Camera 01" type="Camera3D" parent="Cameras" unique_id=1698768196]
+transform = Transform3D(-0.18552004, -0.19094057, -0.9639108, -4.470348e-08, 0.98093945, -0.19431376, 0.9826405, -0.03604905, -0.18198393, -8.80743, 1.5922195, -0.85825783)
+fov = 58.511974
+near = 0.1
+far = 10000.0
+
+[node name="Camera 02" type="Camera3D" parent="Cameras" unique_id=1656500876]
+transform = Transform3D(0.12518539, 0.022286579, 0.99188304, -5.681068e-08, 0.9997477, -0.022463283, -0.9921334, 0.0028120182, 0.1251538, 10.531103, 7.352985, 1.5282513)
+fov = 58.626774
+near = 0.1
+far = 10000.0
+
+[node name="Camera 03" type="Camera3D" parent="Cameras" unique_id=1982045427]
+transform = Transform3D(0.3328526, 0.08148065, 0.939452, 4.4703484e-08, 0.99625987, -0.08640773, -0.9429789, 0.02876108, 0.33160767, 2.7030184, 1.3548956, 2.1113815)
+fov = 36.25456
+near = 0.1
+far = 10000.0
+
+[node name="Camera 04" type="Camera3D" parent="Cameras" unique_id=557146394]
+transform = Transform3D(0.33690128, 0.019027486, -0.9413477, -4.7497455e-08, 0.9997958, 0.020208882, 0.94154, -0.0068083536, 0.33683246, -9.594356, 6.921101, 5.35278)
+fov = 58.23932
+near = 0.1
+far = 10000.0
+
+[node name="Camera 05" type="Camera3D" parent="Cameras" unique_id=1107074932]
+transform = Transform3D(0.4454317, -0.2179294, -0.8683878, -2.9802322e-08, 0.9699233, -0.24341063, 0.89531595, 0.10842283, 0.4320346, -2.23714, 0.7440546, 2.3608017)
+fov = 37.217144
+near = 0.1
+far = 10000.0
+
+[node name="Camera 06" type="Camera3D" parent="Cameras" unique_id=1532027906]
+transform = Transform3D(-0.018116951, 0.2696904, -0.96277666, 0, 0.96293473, 0.26973468, 0.9998359, 0.0048867697, -0.017445441, -6.5954857, 10.879122, -0.6290613)
+fov = 37.24391
+near = 0.1
+far = 10000.0
+
+[node name="Targets" type="Node3D" parent="." unique_id=270519694]
+
+[node name="PhysCamera001_Target" type="Node3D" parent="Targets" unique_id=93511063]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.0042202, 2.762083, 0.23737328)
+
+[node name="PhysCamera002_Target" type="Node3D" parent="Targets" unique_id=31379756]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.1591332, 7.6630297, -0.19915539)
+
+[node name="PhysCamera003_Target" type="Node3D" parent="Targets" unique_id=688843488]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -9.668017, 2.4927433, -2.255347)
+
+[node name="PhysCamera004_Target" type="Node3D" parent="Targets" unique_id=1696403847]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -7.168819, 6.8690295, 4.4848757)
+
+[node name="PhysCamera005_Target" type="Node3D" parent="Targets" unique_id=1134507353]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6.9656787, 3.3236206, -2.2177243)
+
+[node name="PhysCamera006_Target" type="Node3D" parent="Targets" unique_id=100569750]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8.55619, 6.634179, -0.35451406)
+
+[node name="SUN_Target" type="Node3D" parent="Targets" unique_id=837771252]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6.4778843, 1.0242811, -0.7594153)
