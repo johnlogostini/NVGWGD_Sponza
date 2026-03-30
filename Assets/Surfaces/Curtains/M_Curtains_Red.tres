@@ -1,0 +1,17 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://yk3h24v6gfwb"]
+
+[ext_resource type="Texture2D" uid="uid://bsw24v0weauva" path="res://Worlds/Sponza/Assets/Surfaces/Curtains/T_Curtains_Red_A.png" id="1_0qc2k"]
+[ext_resource type="Texture2D" uid="uid://bcc2l28kcvj8p" path="res://Worlds/Sponza/Assets/Surfaces/Curtains/T_Curtains_ORM.png" id="2_l8vys"]
+[ext_resource type="Texture2D" uid="uid://dltq66m5otyqt" path="res://Worlds/Sponza/Assets/Surfaces/Curtains/T_Curtains_N.png" id="3_uml64"]
+
+[resource]
+resource_name = "curtain_01"
+cull_mode = 2
+albedo_texture = ExtResource("1_0qc2k")
+metallic = 1.0
+metallic_texture = ExtResource("2_l8vys")
+metallic_texture_channel = 2
+roughness_texture = ExtResource("2_l8vys")
+roughness_texture_channel = 1
+normal_enabled = true
+normal_texture = ExtResource("3_uml64")
