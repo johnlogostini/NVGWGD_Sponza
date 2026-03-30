@@ -1,0 +1,17 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://ch2mjga15bchj"]
+
+[ext_resource type="Texture2D" uid="uid://bmd34jw6k5c8r" path="res://Worlds/Sponza/Assets/Surfaces/Ceiling_Plaster_02/T_Ceiling_Plaster_02_A.png" id="1_dmmcl"]
+[ext_resource type="Texture2D" uid="uid://jswybrb7gbyr" path="res://Worlds/Sponza/Assets/Surfaces/Ceiling_Plaster_02/T_Ceiling_Plaster_02_ORM.png" id="2_fpdv0"]
+[ext_resource type="Texture2D" uid="uid://88aebgdqa0av" path="res://Worlds/Sponza/Assets/Surfaces/Ceiling_Plaster_01/T_Ceiling_Plaster_01_N.png" id="3_tf2ww"]
+
+[resource]
+resource_name = "ceiling_plaster_02"
+vertex_color_use_as_albedo = true
+albedo_texture = ExtResource("1_dmmcl")
+metallic = 1.0
+metallic_texture = ExtResource("2_fpdv0")
+metallic_texture_channel = 2
+roughness_texture = ExtResource("2_fpdv0")
+roughness_texture_channel = 1
+normal_enabled = true
+normal_texture = ExtResource("3_tf2ww")
