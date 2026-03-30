@@ -816,5 +816,6 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6.4778843, 1.0242811, -0.7594
 
 [node name="Voxel Global Illumination Volume" type="VoxelGI" parent="." unique_id=825807083]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2, 8.5, 0.5)
+subdiv = 3
 size = Vector3(38, 21, 21)
 data = ExtResource("116_b76oc")
