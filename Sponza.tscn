@@ -114,9 +114,26 @@
 [ext_resource type="ArrayMesh" uid="uid://cag323n6doaya" path="res://Worlds/Sponza/Assets/Meshes/SM_Ornament_Windows_03.tres" id="112_is2qm"]
 [ext_resource type="ArrayMesh" uid="uid://bt1vanyipl2ud" path="res://Worlds/Sponza/Assets/Meshes/SM_Ornament_Windows_02.tres" id="113_7jhal"]
 [ext_resource type="ArrayMesh" uid="uid://btdp74o5228b6" path="res://Worlds/Sponza/Assets/Meshes/SM_Decals_Floor_03.tres" id="114_o762x"]
+[ext_resource type="ArrayMesh" uid="uid://drsxqdy8r3yuk" path="res://Worlds/Sponza/Assets/Meshes/SM_Curtain_Holder_01.tres" id="115_hv3uc"]
 [ext_resource type="ArrayMesh" uid="uid://dmc0fm2j0n7wo" path="res://Worlds/Sponza/Assets/Meshes/SM_Material_Previews.tres" id="115_o2ymv"]
 [ext_resource type="VoxelGIData" uid="uid://l2xadh8e61k" path="res://Worlds/Sponza/Lighting/VXGI/Sponza_Voxel_Global_Illuminationl_Data.tres" id="116_b76oc"]
+[ext_resource type="ArrayMesh" uid="uid://q264daalat75" path="res://Worlds/Sponza/Assets/Meshes/SM_Curtain_Holder_02.tres" id="116_imdti"]
+[ext_resource type="ArrayMesh" uid="uid://c7tnt1sc240d" path="res://Worlds/Sponza/Assets/Meshes/SM_Curtain_01.tres" id="117_qvk4v"]
 [ext_resource type="Texture2D" uid="uid://dg6x5yrspyikg" path="res://Worlds/Sponza/Assets/Environments/Kloppenheim_05.hdr" id="117_sovbk"]
+[ext_resource type="ArrayMesh" uid="uid://xi66ee4wpvup" path="res://Worlds/Sponza/Assets/Meshes/SM_Curtain_04.tres" id="118_j3306"]
+[ext_resource type="ArrayMesh" uid="uid://txjy2j8qnnc7" path="res://Worlds/Sponza/Assets/Meshes/SM_Curtain_Hanging_03.tres" id="119_qv8y0"]
+[ext_resource type="ArrayMesh" uid="uid://bosk577f8mp2e" path="res://Worlds/Sponza/Assets/Meshes/SM_Curtain_Hanging_02.tres" id="120_j0j3v"]
+[ext_resource type="ArrayMesh" uid="uid://bl07a1sqbe7r3" path="res://Worlds/Sponza/Assets/Meshes/SM_Curtain_Hanging_01.tres" id="121_30348"]
+[ext_resource type="ArrayMesh" uid="uid://cqhxct7hrj2w8" path="res://Worlds/Sponza/Assets/Meshes/SM_Curtain_03.tres" id="122_8vypv"]
+[ext_resource type="ArrayMesh" uid="uid://bqrsdydatc8n7" path="res://Worlds/Sponza/Assets/Meshes/SM_Curtain_05.tres" id="123_wvx3f"]
+[ext_resource type="ArrayMesh" uid="uid://c52iil8351ihx" path="res://Worlds/Sponza/Assets/Meshes/SM_Curtain_02.tres" id="124_i8aba"]
+[ext_resource type="ArrayMesh" uid="uid://btoq66j6lwtwe" path="res://Worlds/Sponza/Assets/Meshes/SM_Curtain_06.tres" id="125_k6eol"]
+[ext_resource type="ArrayMesh" uid="uid://bb84niev7vmdf" path="res://Worlds/Sponza/Assets/Meshes/SM_Curtain_07.tres" id="126_8nkfm"]
+[ext_resource type="ArrayMesh" uid="uid://be8ijy168qlkc" path="res://Worlds/Sponza/Assets/Meshes/SM_Curtain_08.tres" id="127_gfrk4"]
+[ext_resource type="ArrayMesh" uid="uid://8ogcrnxwi6sf" path="res://Worlds/Sponza/Assets/Meshes/SM_Curtain_09.tres" id="128_qhhi7"]
+[ext_resource type="ArrayMesh" uid="uid://ba17c0xnawyfn" path="res://Worlds/Sponza/Assets/Meshes/SM_Curtain_Hanging_06.tres" id="129_dh0sj"]
+[ext_resource type="ArrayMesh" uid="uid://c8bhcrwmetvic" path="res://Worlds/Sponza/Assets/Meshes/SM_Curtain_Hanging_05.tres" id="130_7eqcx"]
+[ext_resource type="ArrayMesh" uid="uid://1uwo55newx8h" path="res://Worlds/Sponza/Assets/Meshes/SM_Curtain_Hanging_04.tres" id="131_1u6xq"]
 
 [sub_resource type="PanoramaSkyMaterial" id="PanoramaSkyMaterial_gvkrq"]
 panorama = ExtResource("117_sovbk")
@@ -835,6 +852,76 @@ mesh = ExtResource("113_7jhal")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.09102356, 12.530001, 0.18152206)
 visible = false
 mesh = ExtResource("114_o762x")
+
+[node name="Curtains" type="Node3D" parent="Geometry" unique_id=1981409211]
+
+[node name="curtain_holder_01" type="MeshInstance3D" parent="Geometry/Curtains" unique_id=354762148]
+transform = Transform3D(1, 0, 0, 0, -1.1920929e-07, -0.99999994, 0, 0.99999994, -1.1920929e-07, 0.1645671, 4.031386, -3.2706473)
+mesh = ExtResource("115_hv3uc")
+
+[node name="curtain_holder_02" type="MeshInstance3D" parent="Geometry/Curtains" unique_id=1443632534]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.1351805, 4.031386, 3.1761916)
+mesh = ExtResource("116_imdti")
+
+[node name="curtain_01" type="MeshInstance3D" parent="Geometry/Curtains" unique_id=1212747488]
+transform = Transform3D(0, -1, 2.3841858e-07, 2.9802322e-08, -2.3841858e-07, -1, 1, -2.9802322e-08, 5.9604645e-08, 8.344225, 3.1049097, 1.5779229)
+mesh = ExtResource("117_qvk4v")
+
+[node name="curtain_04" type="MeshInstance3D" parent="Geometry/Curtains" unique_id=794016348]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.7075813, 0, -2.9961667)
+mesh = ExtResource("118_j3306")
+
+[node name="curtain_hanging_03" type="MeshInstance3D" parent="Geometry/Curtains" unique_id=1624195262]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.647828, 0, -2.996843)
+mesh = ExtResource("119_qv8y0")
+
+[node name="curtain_hanging_02" type="MeshInstance3D" parent="Geometry/Curtains" unique_id=1807613267]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.3631227, 0, -2.9961302)
+mesh = ExtResource("120_j0j3v")
+
+[node name="curtain_hanging_01" type="MeshInstance3D" parent="Geometry/Curtains" unique_id=1218397854]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.149219, 4.828596, -3.0213134)
+mesh = ExtResource("121_30348")
+
+[node name="curtain_03" type="MeshInstance3D" parent="Geometry/Curtains" unique_id=93480949]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.3626876, 0, -2.9966354)
+mesh = ExtResource("122_8vypv")
+
+[node name="curtain_05" type="MeshInstance3D" parent="Geometry/Curtains" unique_id=918120472]
+transform = Transform3D(1, 0, 0, 0, -1.1920929e-07, -0.99999994, 0, 0.99999994, -1.1920929e-07, -5.7582464, 2.2240562, -3.155316)
+mesh = ExtResource("123_wvx3f")
+
+[node name="curtain_02" type="MeshInstance3D" parent="Geometry/Curtains" unique_id=1808894490]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5.365208, 2.224758, -3.1316109)
+mesh = ExtResource("124_i8aba")
+
+[node name="curtain_06" type="MeshInstance3D" parent="Geometry/Curtains" unique_id=765751033]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 5.670447, 2.224758, 3.0441115)
+mesh = ExtResource("125_k6eol")
+
+[node name="curtain_07" type="MeshInstance3D" parent="Geometry/Curtains" unique_id=2142217342]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -2.0598884, 0, 2.9039712)
+mesh = ExtResource("126_8nkfm")
+
+[node name="curtain_08" type="MeshInstance3D" parent="Geometry/Curtains" unique_id=1833714727]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 1.9387213, 0, 2.9062645)
+mesh = ExtResource("127_gfrk4")
+
+[node name="curtain_09" type="MeshInstance3D" parent="Geometry/Curtains" unique_id=1178581285]
+transform = Transform3D(-1, -8.742279e-08, 7.1054274e-15, -7.1054274e-15, 0, -1, 8.742279e-08, -1, 0, 6.0632925, 2.2240562, 3.0547326)
+mesh = ExtResource("128_qhhi7")
+
+[node name="curtain_hanging_06" type="MeshInstance3D" parent="Geometry/Curtains" unique_id=884032201]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 1.9214761, 0, 2.9681718)
+mesh = ExtResource("129_dh0sj")
+
+[node name="curtain_hanging_05" type="MeshInstance3D" parent="Geometry/Curtains" unique_id=619217684]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -2.0894747, 0, 2.967459)
+mesh = ExtResource("130_7eqcx")
+
+[node name="curtain_hanging_04" type="MeshInstance3D" parent="Geometry/Curtains" unique_id=1057107789]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -3.8755713, 4.828596, 2.9926424)
+mesh = ExtResource("131_1u6xq")
 
 [node name="master_material" type="MeshInstance3D" parent="Geometry" unique_id=1988882528]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.9864367, 5e-07, 13.863933)
