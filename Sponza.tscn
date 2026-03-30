@@ -115,6 +115,7 @@
 [ext_resource type="ArrayMesh" uid="uid://bt1vanyipl2ud" path="res://Worlds/Sponza/Assets/Meshes/SM_Ornament_Windows_02.tres" id="113_7jhal"]
 [ext_resource type="ArrayMesh" uid="uid://btdp74o5228b6" path="res://Worlds/Sponza/Assets/Meshes/SM_Decals_Floor_03.tres" id="114_o762x"]
 [ext_resource type="ArrayMesh" uid="uid://dmc0fm2j0n7wo" path="res://Worlds/Sponza/Assets/Meshes/SM_Material_Previews.tres" id="115_o2ymv"]
+[ext_resource type="VoxelGIData" uid="uid://l2xadh8e61k" path="res://Worlds/Sponza/Lighting/VXGI/Sponza_Voxel_Global_Illuminationl_Data.tres" id="116_b76oc"]
 
 [node name="Sponza" type="Node3D" unique_id=958874319]
 
@@ -812,3 +813,8 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8.55619, 6.634179, -0.3545140
 
 [node name="SUN_Target" type="Node3D" parent="Targets" unique_id=837771252]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6.4778843, 1.0242811, -0.7594153)
+
+[node name="Voxel Global Illumination Volume" type="VoxelGI" parent="." unique_id=825807083]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2, 8.5, 0.5)
+size = Vector3(38, 21, 21)
+data = ExtResource("116_b76oc")
