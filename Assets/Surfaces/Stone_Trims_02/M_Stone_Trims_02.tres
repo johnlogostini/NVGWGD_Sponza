@@ -1,0 +1,18 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://bjvmces8n2lip"]
+
+[ext_resource type="Texture2D" uid="uid://8dbk5edho2ox" path="res://Worlds/Sponza/Assets/Surfaces/Stone_Trims_02/T_Stone_Trims_02_A.png" id="1_nwsr6"]
+[ext_resource type="Texture2D" uid="uid://c1ec22knfluio" path="res://Worlds/Sponza/Assets/Surfaces/Stone_Trims_02/T_Stone_Trims_02_ORM.png" id="2_wbep6"]
+[ext_resource type="Texture2D" uid="uid://deu6326rgna22" path="res://Worlds/Sponza/Assets/Surfaces/Stone_Trims_02/T_Stone_Trims_02_N.png" id="3_d8cvo"]
+
+[resource]
+resource_name = "stone_trims_02"
+vertex_color_use_as_albedo = true
+albedo_texture = ExtResource("1_nwsr6")
+metallic = 1.0
+metallic_texture = ExtResource("2_wbep6")
+metallic_texture_channel = 2
+roughness_texture = ExtResource("2_wbep6")
+roughness_texture_channel = 1
+normal_enabled = true
+normal_scale = 0.3
+normal_texture = ExtResource("3_d8cvo")
