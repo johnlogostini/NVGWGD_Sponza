@@ -1,0 +1,11 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://ddc23xddurucr"]
+
+[ext_resource type="Texture2D" uid="uid://blolxi6qk1gxb" path="res://Worlds/Sponza/Assets/Surfaces/Dirt_Decals/T_Dirt_Decals_AT.png" id="1_c1jvr"]
+
+[resource]
+resource_name = "dirt_decal"
+transparency = 4
+vertex_color_use_as_albedo = true
+albedo_color = Color(1, 1, 1, 0.35000002)
+albedo_texture = ExtResource("1_c1jvr")
+metallic = 1.0
