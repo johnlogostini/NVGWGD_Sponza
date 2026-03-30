@@ -383,6 +383,7 @@ transform = Transform3D(-0.18786299, 0.8133757, -0.5505702, -1.1920929e-07, 0.56
 light_color = Color(1, 0.9372549, 0.8352941, 1)
 light_energy = 15.0
 light_indirect_energy = 10.0
+light_angular_distance = 10.0
 light_bake_mode = 1
 shadow_enabled = true
 
