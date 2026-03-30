@@ -1,0 +1,7 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://d14m5x3bn8nrl"]
+
+[resource]
+resource_name = "light_bulb"
+roughness = 0.0
+emission_enabled = true
+emission = Color(1, 1, 1, 1)
