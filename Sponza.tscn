@@ -131,6 +131,8 @@ ambient_light_source = 1
 ssao_enabled = true
 ssao_radius = 2.0
 ssao_intensity = 5.0
+ssil_enabled = true
+ssil_radius = 6.0
 
 [node name="Sponza" type="Node3D" unique_id=958874319]
 
