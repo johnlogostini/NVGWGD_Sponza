@@ -1,0 +1,11 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://cbt4hi3a4am4t"]
+
+[resource]
+resource_name = "Lianas"
+cull_mode = 2
+vertex_color_use_as_albedo = true
+albedo_color = Color(0.34665966, 0.17703238, 0, 1)
+roughness = 0.5356144
+metadata/extras = {
+"babylonSeparateCullingPass": false
+}
