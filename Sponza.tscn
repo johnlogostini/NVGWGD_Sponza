@@ -116,6 +116,17 @@
 [ext_resource type="ArrayMesh" uid="uid://btdp74o5228b6" path="res://Worlds/Sponza/Assets/Meshes/SM_Decals_Floor_03.tres" id="114_o762x"]
 [ext_resource type="ArrayMesh" uid="uid://dmc0fm2j0n7wo" path="res://Worlds/Sponza/Assets/Meshes/SM_Material_Previews.tres" id="115_o2ymv"]
 [ext_resource type="VoxelGIData" uid="uid://l2xadh8e61k" path="res://Worlds/Sponza/Lighting/VXGI/Sponza_Voxel_Global_Illuminationl_Data.tres" id="116_b76oc"]
+[ext_resource type="Texture2D" uid="uid://dg6x5yrspyikg" path="res://Worlds/Sponza/Assets/Environments/Kloppenheim_05.hdr" id="117_sovbk"]
+
+[sub_resource type="PanoramaSkyMaterial" id="PanoramaSkyMaterial_gvkrq"]
+panorama = ExtResource("117_sovbk")
+
+[sub_resource type="Sky" id="Sky_ggsp4"]
+sky_material = SubResource("PanoramaSkyMaterial_gvkrq")
+
+[sub_resource type="Environment" id="Environment_biddm"]
+background_mode = 2
+sky = SubResource("Sky_ggsp4")
 
 [node name="Sponza" type="Node3D" unique_id=958874319]
 
@@ -819,3 +830,6 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2, 8.5, 0.5)
 subdiv = 3
 size = Vector3(38, 21, 21)
 data = ExtResource("116_b76oc")
+
+[node name="World Environment" type="WorldEnvironment" parent="." unique_id=90641406]
+environment = SubResource("Environment_biddm")
