@@ -225,7 +225,7 @@ omni_range = 4096.0
 omni_attenuation = 2.0
 
 [node name="lamp_light_1st_floor_05" type="OmniLight3D" parent="Lighting/Lamps" unique_id=303983672]
-transform = Transform3D(0.1562422, -3.8714532e-08, -0.9877188, -3.8714536e-08, 1, -4.5319965e-08, 0.9877188, 4.531996e-08, 0.1562422, 10.024332, 4.1713915, 4.757481)
+transform = Transform3D(0.1562422, -3.8714532e-08, -0.9877188, -3.8714536e-08, 1, -4.5319965e-08, 0.9877188, 4.531996e-08, 0.1562422, 10.17355, 4.1713915, 4.724351)
 light_color = Color(1, 0.70560676, 0.37189168, 1)
 light_energy = 15.0
 light_bake_mode = 1
@@ -324,7 +324,7 @@ omni_range = 4096.0
 omni_attenuation = 2.0
 
 [node name="lamp_light_2nd_floor_05" type="OmniLight3D" parent="Lighting/Lamps" unique_id=687761104]
-transform = Transform3D(0.1562422, -3.8714532e-08, -0.9877188, -3.8714536e-08, 1, -4.5319965e-08, 0.9877188, 4.531996e-08, 0.1562422, 2.0937212, 9.285233, -4.6540666)
+transform = Transform3D(0.1562422, -3.8714532e-08, -0.9877188, -3.8714536e-08, 1, -4.5319965e-08, 0.9877188, 4.531996e-08, 0.1562422, 2.167397, 9.285233, -4.6941867)
 light_color = Color(1, 0.70560676, 0.37189168, 1)
 light_energy = 15.0
 light_bake_mode = 1
