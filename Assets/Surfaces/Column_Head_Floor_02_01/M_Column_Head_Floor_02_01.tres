@@ -1,0 +1,16 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://bk7mt5nnw0xdd"]
+
+[ext_resource type="Texture2D" uid="uid://6e10sxfl54xn" path="res://Worlds/Sponza/Assets/Surfaces/Column_Head_Floor_02_01/T_Column_Head_Floor_02_01_A.png" id="1_fnqtl"]
+[ext_resource type="Texture2D" uid="uid://bqsv8t5v8prva" path="res://Worlds/Sponza/Assets/Surfaces/Column_Head_Floor_02_01/T_Column_Head_Floor_02_01_ORM.png" id="2_apj7l"]
+[ext_resource type="Texture2D" uid="uid://q17paejsnm6m" path="res://Worlds/Sponza/Assets/Surfaces/Column_Head_Floor_02_01/T_Column_Head_Floor_02_01_N.png" id="3_k8gxs"]
+
+[resource]
+resource_name = "column_head_2ndfloor_02"
+albedo_texture = ExtResource("1_fnqtl")
+metallic = 1.0
+metallic_texture = ExtResource("2_apj7l")
+metallic_texture_channel = 2
+roughness_texture = ExtResource("2_apj7l")
+roughness_texture_channel = 1
+normal_enabled = true
+normal_texture = ExtResource("3_k8gxs")
