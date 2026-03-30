@@ -146,6 +146,11 @@ adjustment_brightness = 1.25
 adjustment_contrast = 1.015
 adjustment_saturation = 1.1
 
+[sub_resource type="CameraAttributesPractical" id="CameraAttributesPractical_sovbk"]
+auto_exposure_enabled = true
+auto_exposure_scale = 0.15
+auto_exposure_speed = 1.0
+
 [node name="Sponza" type="Node3D" unique_id=958874319]
 
 [node name="Lighting" type="Node3D" parent="." unique_id=190527423]
@@ -898,3 +903,4 @@ data = ExtResource("116_b76oc")
 
 [node name="World Environment" type="WorldEnvironment" parent="." unique_id=90641406]
 environment = SubResource("Environment_biddm")
+camera_attributes = SubResource("CameraAttributesPractical_sovbk")
