@@ -159,6 +159,7 @@ sdfgi_cascades = 6
 sdfgi_min_cell_size = 0.1
 sdfgi_y_scale = 0
 pathtracing_enabled = true
+glow_enabled = true
 glow_intensity = 0.15
 glow_bloom = 0.35
 fog_light_color = Color(0.88, 0.7018, 0.484, 1)
