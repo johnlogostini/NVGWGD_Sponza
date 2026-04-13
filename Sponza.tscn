@@ -190,7 +190,7 @@ light_size = 0.011
 light_specular = 3.0
 light_bake_mode = 1
 shadow_enabled = true
-omni_range = 4096.0
+omni_range = 10.0
 omni_attenuation = 2.0
 
 [node name="lamp_light_1st_floor_11" type="OmniLight3D" parent="Lighting/Lamps" unique_id=1419353888]
@@ -201,7 +201,7 @@ light_size = 0.011
 light_specular = 3.0
 light_bake_mode = 1
 shadow_enabled = true
-omni_range = 4096.0
+omni_range = 10.0
 omni_attenuation = 2.0
 
 [node name="lamp_light_1st_floor_10" type="OmniLight3D" parent="Lighting/Lamps" unique_id=455212046]
@@ -212,7 +212,7 @@ light_size = 0.011
 light_specular = 3.0
 light_bake_mode = 1
 shadow_enabled = true
-omni_range = 4096.0
+omni_range = 10.0
 omni_attenuation = 2.0
 
 [node name="lamp_light_1st_floor_09" type="OmniLight3D" parent="Lighting/Lamps" unique_id=361488569]
@@ -223,7 +223,7 @@ light_size = 0.011
 light_specular = 3.0
 light_bake_mode = 1
 shadow_enabled = true
-omni_range = 4096.0
+omni_range = 10.0
 omni_attenuation = 2.0
 
 [node name="lamp_light_1st_floor_08" type="OmniLight3D" parent="Lighting/Lamps" unique_id=1269872013]
@@ -234,7 +234,7 @@ light_size = 0.011
 light_specular = 3.0
 light_bake_mode = 1
 shadow_enabled = true
-omni_range = 4096.0
+omni_range = 10.0
 omni_attenuation = 2.0
 
 [node name="lamp_light_1st_floor_07" type="OmniLight3D" parent="Lighting/Lamps" unique_id=1155948839]
@@ -245,7 +245,7 @@ light_size = 0.011
 light_specular = 3.0
 light_bake_mode = 1
 shadow_enabled = true
-omni_range = 4096.0
+omni_range = 10.0
 omni_attenuation = 2.0
 
 [node name="lamp_light_1st_floor_06" type="OmniLight3D" parent="Lighting/Lamps" unique_id=591943540]
@@ -256,7 +256,7 @@ light_size = 0.011
 light_specular = 3.0
 light_bake_mode = 1
 shadow_enabled = true
-omni_range = 4096.0
+omni_range = 10.0
 omni_attenuation = 2.0
 
 [node name="lamp_light_1st_floor_05" type="OmniLight3D" parent="Lighting/Lamps" unique_id=303983672]
@@ -267,7 +267,7 @@ light_size = 0.011
 light_specular = 3.0
 light_bake_mode = 1
 shadow_enabled = true
-omni_range = 4096.0
+omni_range = 10.0
 omni_attenuation = 2.0
 
 [node name="lamp_light_1st_floor_04" type="OmniLight3D" parent="Lighting/Lamps" unique_id=1509740049]
@@ -278,7 +278,7 @@ light_size = 0.011
 light_specular = 3.0
 light_bake_mode = 1
 shadow_enabled = true
-omni_range = 4096.0
+omni_range = 10.0
 omni_attenuation = 2.0
 
 [node name="lamp_light_1st_floor_03" type="OmniLight3D" parent="Lighting/Lamps" unique_id=1336092648]
@@ -289,7 +289,7 @@ light_size = 0.011
 light_specular = 3.0
 light_bake_mode = 1
 shadow_enabled = true
-omni_range = 4096.0
+omni_range = 10.0
 omni_attenuation = 2.0
 
 [node name="lamp_light_1st_floor_02" type="OmniLight3D" parent="Lighting/Lamps" unique_id=1465400890]
@@ -300,7 +300,7 @@ light_size = 0.011
 light_specular = 3.0
 light_bake_mode = 1
 shadow_enabled = true
-omni_range = 4096.0
+omni_range = 10.0
 omni_attenuation = 2.0
 
 [node name="lamp_light_1st_floor_01" type="OmniLight3D" parent="Lighting/Lamps" unique_id=1754437627]
@@ -311,7 +311,7 @@ light_size = 0.011
 light_specular = 3.0
 light_bake_mode = 1
 shadow_enabled = true
-omni_range = 4096.0
+omni_range = 10.0
 omni_attenuation = 2.0
 
 [node name="lamp_light_1st_floor_13" type="OmniLight3D" parent="Lighting/Lamps" unique_id=2034666372]
@@ -322,7 +322,7 @@ light_size = 0.011
 light_specular = 3.0
 light_bake_mode = 1
 shadow_enabled = true
-omni_range = 4096.0
+omni_range = 10.0
 omni_attenuation = 2.0
 
 [node name="lamp_light_2nd_floor_08" type="OmniLight3D" parent="Lighting/Lamps" unique_id=1813724982]
@@ -333,7 +333,7 @@ light_size = 0.011
 light_specular = 3.0
 light_bake_mode = 1
 shadow_enabled = true
-omni_range = 4096.0
+omni_range = 10.0
 omni_attenuation = 2.0
 
 [node name="lamp_light_2nd_floor_01" type="OmniLight3D" parent="Lighting/Lamps" unique_id=1098331335]
@@ -344,7 +344,7 @@ light_size = 0.011
 light_specular = 3.0
 light_bake_mode = 1
 shadow_enabled = true
-omni_range = 4096.0
+omni_range = 10.0
 omni_attenuation = 2.0
 
 [node name="lamp_light_2nd_floor_02" type="OmniLight3D" parent="Lighting/Lamps" unique_id=925020366]
@@ -355,7 +355,7 @@ light_size = 0.011
 light_specular = 3.0
 light_bake_mode = 1
 shadow_enabled = true
-omni_range = 4096.0
+omni_range = 10.0
 omni_attenuation = 2.0
 
 [node name="lamp_light_2nd_floor_03" type="OmniLight3D" parent="Lighting/Lamps" unique_id=1156522946]
@@ -366,7 +366,7 @@ light_size = 0.011
 light_specular = 3.0
 light_bake_mode = 1
 shadow_enabled = true
-omni_range = 4096.0
+omni_range = 10.0
 omni_attenuation = 2.0
 
 [node name="lamp_light_2nd_floor_04" type="OmniLight3D" parent="Lighting/Lamps" unique_id=205610540]
@@ -377,7 +377,7 @@ light_size = 0.011
 light_specular = 3.0
 light_bake_mode = 1
 shadow_enabled = true
-omni_range = 4096.0
+omni_range = 10.0
 omni_attenuation = 2.0
 
 [node name="lamp_light_2nd_floor_05" type="OmniLight3D" parent="Lighting/Lamps" unique_id=687761104]
@@ -388,7 +388,7 @@ light_size = 0.011
 light_specular = 3.0
 light_bake_mode = 1
 shadow_enabled = true
-omni_range = 4096.0
+omni_range = 10.0
 omni_attenuation = 2.0
 
 [node name="lamp_light_2nd_floor_06" type="OmniLight3D" parent="Lighting/Lamps" unique_id=1062954440]
@@ -399,7 +399,7 @@ light_size = 0.011
 light_specular = 3.0
 light_bake_mode = 1
 shadow_enabled = true
-omni_range = 4096.0
+omni_range = 10.0
 omni_attenuation = 2.0
 
 [node name="lamp_light_2nd_floor_07" type="OmniLight3D" parent="Lighting/Lamps" unique_id=174598911]
@@ -410,7 +410,7 @@ light_size = 0.011
 light_specular = 3.0
 light_bake_mode = 1
 shadow_enabled = true
-omni_range = 4096.0
+omni_range = 10.0
 omni_attenuation = 2.0
 
 [node name="lamp_light_1st_floor_14" type="OmniLight3D" parent="Lighting/Lamps" unique_id=1391727049]
@@ -421,7 +421,7 @@ light_size = 0.011
 light_specular = 3.0
 light_bake_mode = 1
 shadow_enabled = true
-omni_range = 4096.0
+omni_range = 10.0
 omni_attenuation = 2.0
 
 [node name="Directional Light Sun" type="DirectionalLight3D" parent="Lighting" unique_id=1896365223]
